@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033B27331C065871005672A2 /* Client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27231C065871005672A2 /* Client.cpp */; };
+		033B27341C065871005672A2 /* ClientMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27241C065871005672A2 /* ClientMain.cpp */; };
+		033B27351C065871005672A2 /* GraphicsDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27251C065871005672A2 /* GraphicsDriver.cpp */; };
+		033B27361C065871005672A2 /* HUD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27261C065871005672A2 /* HUD.cpp */; };
+		033B27371C065871005672A2 /* InputManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27271C065871005672A2 /* InputManager.cpp */; };
+		033B27381C065871005672A2 /* MouseClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27281C065871005672A2 /* MouseClient.cpp */; };
+		033B27391C065871005672A2 /* NetworkManagerClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27291C065871005672A2 /* NetworkManagerClient.cpp */; };
+		033B273A1C065871005672A2 /* RenderManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B272A1C065871005672A2 /* RenderManager.cpp */; };
+		033B273B1C065871005672A2 /* ReplicationManagerClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B272B1C065871005672A2 /* ReplicationManagerClient.cpp */; };
+		033B273C1C065871005672A2 /* RoboCatClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B272C1C065871005672A2 /* RoboCatClient.cpp */; };
+		033B273D1C065871005672A2 /* RoboCatClientPCH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B272D1C065871005672A2 /* RoboCatClientPCH.cpp */; };
+		033B273E1C065871005672A2 /* SpriteComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B272E1C065871005672A2 /* SpriteComponent.cpp */; };
+		033B273F1C065871005672A2 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B272F1C065871005672A2 /* Texture.cpp */; };
+		033B27401C065871005672A2 /* TextureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27301C065871005672A2 /* TextureManager.cpp */; };
+		033B27411C065871005672A2 /* WindowManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27311C065871005672A2 /* WindowManager.cpp */; };
+		033B27421C065871005672A2 /* YarnClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27321C065871005672A2 /* YarnClient.cpp */; };
+		033B27C81C06613B005672A2 /* AckRange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27AF1C06613B005672A2 /* AckRange.cpp */; };
+		033B27C91C06613B005672A2 /* AckRange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27AF1C06613B005672A2 /* AckRange.cpp */; };
+		033B27CA1C06613B005672A2 /* DeliveryNotificationManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B01C06613B005672A2 /* DeliveryNotificationManager.cpp */; };
+		033B27CB1C06613B005672A2 /* DeliveryNotificationManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B01C06613B005672A2 /* DeliveryNotificationManager.cpp */; };
+		033B27CC1C06613B005672A2 /* Engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B11C06613B005672A2 /* Engine.cpp */; };
+		033B27CD1C06613B005672A2 /* Engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B11C06613B005672A2 /* Engine.cpp */; };
+		033B27CE1C06613B005672A2 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B21C06613B005672A2 /* GameObject.cpp */; };
+		033B27CF1C06613B005672A2 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B21C06613B005672A2 /* GameObject.cpp */; };
+		033B27D01C06613B005672A2 /* GameObjectRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B31C06613B005672A2 /* GameObjectRegistry.cpp */; };
+		033B27D11C06613B005672A2 /* GameObjectRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B31C06613B005672A2 /* GameObjectRegistry.cpp */; };
+		033B27D21C06613B005672A2 /* InFlightPacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B41C06613B005672A2 /* InFlightPacket.cpp */; };
+		033B27D31C06613B005672A2 /* InFlightPacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B41C06613B005672A2 /* InFlightPacket.cpp */; };
+		033B27D41C06613B005672A2 /* InputState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B51C06613B005672A2 /* InputState.cpp */; };
+		033B27D51C06613B005672A2 /* InputState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B51C06613B005672A2 /* InputState.cpp */; };
+		033B27D61C06613B005672A2 /* MemoryBitStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B61C06613B005672A2 /* MemoryBitStream.cpp */; };
+		033B27D71C06613B005672A2 /* MemoryBitStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B61C06613B005672A2 /* MemoryBitStream.cpp */; };
+		033B27D81C06613B005672A2 /* Mouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B71C06613B005672A2 /* Mouse.cpp */; };
+		033B27D91C06613B005672A2 /* Mouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B71C06613B005672A2 /* Mouse.cpp */; };
+		033B27DA1C06613B005672A2 /* Move.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B81C06613B005672A2 /* Move.cpp */; };
+		033B27DB1C06613B005672A2 /* Move.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B81C06613B005672A2 /* Move.cpp */; };
+		033B27DC1C06613B005672A2 /* MoveList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B91C06613B005672A2 /* MoveList.cpp */; };
+		033B27DD1C06613B005672A2 /* MoveList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27B91C06613B005672A2 /* MoveList.cpp */; };
+		033B27DE1C06613B005672A2 /* NetworkManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27BA1C06613B005672A2 /* NetworkManager.cpp */; };
+		033B27DF1C06613B005672A2 /* NetworkManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27BA1C06613B005672A2 /* NetworkManager.cpp */; };
+		033B27E01C06613B005672A2 /* RoboCat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27BB1C06613B005672A2 /* RoboCat.cpp */; };
+		033B27E11C06613B005672A2 /* RoboCat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27BB1C06613B005672A2 /* RoboCat.cpp */; };
+		033B27E21C06613B005672A2 /* RoboCatPCH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27BC1C06613B005672A2 /* RoboCatPCH.cpp */; };
+		033B27E31C06613B005672A2 /* RoboCatPCH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27BC1C06613B005672A2 /* RoboCatPCH.cpp */; };
+		033B27E41C06613B005672A2 /* RoboMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27BD1C06613B005672A2 /* RoboMath.cpp */; };
+		033B27E51C06613B005672A2 /* RoboMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27BD1C06613B005672A2 /* RoboMath.cpp */; };
+		033B27E61C06613B005672A2 /* ScoreBoardManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27BE1C06613B005672A2 /* ScoreBoardManager.cpp */; };
+		033B27E71C06613B005672A2 /* ScoreBoardManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27BE1C06613B005672A2 /* ScoreBoardManager.cpp */; };
+		033B27E81C06613B005672A2 /* SocketAddress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27BF1C06613B005672A2 /* SocketAddress.cpp */; };
+		033B27E91C06613B005672A2 /* SocketAddress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27BF1C06613B005672A2 /* SocketAddress.cpp */; };
+		033B27EA1C06613B005672A2 /* SocketAddressFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27C01C06613B005672A2 /* SocketAddressFactory.cpp */; };
+		033B27EB1C06613B005672A2 /* SocketAddressFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27C01C06613B005672A2 /* SocketAddressFactory.cpp */; };
+		033B27EC1C06613B005672A2 /* SocketUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27C11C06613B005672A2 /* SocketUtil.cpp */; };
+		033B27ED1C06613B005672A2 /* SocketUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27C11C06613B005672A2 /* SocketUtil.cpp */; };
+		033B27EE1C06613B005672A2 /* StringUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27C21C06613B005672A2 /* StringUtils.cpp */; };
+		033B27EF1C06613B005672A2 /* StringUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27C21C06613B005672A2 /* StringUtils.cpp */; };
+		033B27F01C06613B005672A2 /* TCPSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27C31C06613B005672A2 /* TCPSocket.cpp */; };
+		033B27F11C06613B005672A2 /* TCPSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27C31C06613B005672A2 /* TCPSocket.cpp */; };
+		033B27F21C06613B005672A2 /* Timing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27C41C06613B005672A2 /* Timing.cpp */; };
+		033B27F31C06613B005672A2 /* Timing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27C41C06613B005672A2 /* Timing.cpp */; };
+		033B27F41C06613B005672A2 /* UDPSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27C51C06613B005672A2 /* UDPSocket.cpp */; };
+		033B27F51C06613B005672A2 /* UDPSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27C51C06613B005672A2 /* UDPSocket.cpp */; };
+		033B27F61C06613B005672A2 /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27C61C06613B005672A2 /* World.cpp */; };
+		033B27F71C06613B005672A2 /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27C61C06613B005672A2 /* World.cpp */; };
+		033B27F81C06613B005672A2 /* Yarn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27C71C06613B005672A2 /* Yarn.cpp */; };
+		033B27F91C06613B005672A2 /* Yarn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27C71C06613B005672A2 /* Yarn.cpp */; };
+		033B28041C0661E1005672A2 /* ClientProxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27FA1C0661E1005672A2 /* ClientProxy.cpp */; };
+		033B28051C0661E1005672A2 /* MouseServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27FB1C0661E1005672A2 /* MouseServer.cpp */; };
+		033B28061C0661E1005672A2 /* NetworkManagerServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27FC1C0661E1005672A2 /* NetworkManagerServer.cpp */; };
+		033B28071C0661E1005672A2 /* ReplicationManagerServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27FD1C0661E1005672A2 /* ReplicationManagerServer.cpp */; };
+		033B28081C0661E1005672A2 /* ReplicationManagerTransmissionData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27FE1C0661E1005672A2 /* ReplicationManagerTransmissionData.cpp */; };
+		033B28091C0661E1005672A2 /* RoboCatServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B27FF1C0661E1005672A2 /* RoboCatServer.cpp */; };
+		033B280A1C0661E1005672A2 /* RoboCatServerPCH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B28001C0661E1005672A2 /* RoboCatServerPCH.cpp */; };
+		033B280B1C0661E1005672A2 /* Server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B28011C0661E1005672A2 /* Server.cpp */; };
+		033B280C1C0661E1005672A2 /* ServerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B28021C0661E1005672A2 /* ServerMain.cpp */; };
+		033B280D1C0661E1005672A2 /* YarnServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033B28031C0661E1005672A2 /* YarnServer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		033B27091C065833005672A2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9202F92B1BFFE0DF00C30060 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		033B270E1C065833005672A2 /* RoboCatActionClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RoboCatActionClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		033B27111C065871005672A2 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		033B27121C065871005672A2 /* GraphicsDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsDriver.h; sourceTree = "<group>"; };
+		033B27131C065871005672A2 /* HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUD.h; sourceTree = "<group>"; };
+		033B27141C065871005672A2 /* InputManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputManager.h; sourceTree = "<group>"; };
+		033B27151C065871005672A2 /* MouseClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseClient.h; sourceTree = "<group>"; };
+		033B27161C065871005672A2 /* NetworkManagerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManagerClient.h; sourceTree = "<group>"; };
+		033B27171C065871005672A2 /* RenderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderManager.h; sourceTree = "<group>"; };
+		033B27181C065871005672A2 /* ReplicationManagerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplicationManagerClient.h; sourceTree = "<group>"; };
+		033B27191C065871005672A2 /* RoboCatClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoboCatClient.h; sourceTree = "<group>"; };
+		033B271A1C065871005672A2 /* RoboCatClientPCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoboCatClientPCH.h; sourceTree = "<group>"; };
+		033B271B1C065871005672A2 /* SpriteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteComponent.h; sourceTree = "<group>"; };
+		033B271C1C065871005672A2 /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		033B271D1C065871005672A2 /* TextureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureManager.h; sourceTree = "<group>"; };
+		033B271E1C065871005672A2 /* WindowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowManager.h; sourceTree = "<group>"; };
+		033B271F1C065871005672A2 /* YarnClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YarnClient.h; sourceTree = "<group>"; };
+		033B27231C065871005672A2 /* Client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Client.cpp; sourceTree = "<group>"; };
+		033B27241C065871005672A2 /* ClientMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClientMain.cpp; sourceTree = "<group>"; };
+		033B27251C065871005672A2 /* GraphicsDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphicsDriver.cpp; sourceTree = "<group>"; };
+		033B27261C065871005672A2 /* HUD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HUD.cpp; sourceTree = "<group>"; };
+		033B27271C065871005672A2 /* InputManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InputManager.cpp; sourceTree = "<group>"; };
+		033B27281C065871005672A2 /* MouseClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MouseClient.cpp; sourceTree = "<group>"; };
+		033B27291C065871005672A2 /* NetworkManagerClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkManagerClient.cpp; sourceTree = "<group>"; };
+		033B272A1C065871005672A2 /* RenderManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderManager.cpp; sourceTree = "<group>"; };
+		033B272B1C065871005672A2 /* ReplicationManagerClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReplicationManagerClient.cpp; sourceTree = "<group>"; };
+		033B272C1C065871005672A2 /* RoboCatClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RoboCatClient.cpp; sourceTree = "<group>"; };
+		033B272D1C065871005672A2 /* RoboCatClientPCH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RoboCatClientPCH.cpp; sourceTree = "<group>"; };
+		033B272E1C065871005672A2 /* SpriteComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpriteComponent.cpp; sourceTree = "<group>"; };
+		033B272F1C065871005672A2 /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
+		033B27301C065871005672A2 /* TextureManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextureManager.cpp; sourceTree = "<group>"; };
+		033B27311C065871005672A2 /* WindowManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WindowManager.cpp; sourceTree = "<group>"; };
+		033B27321C065871005672A2 /* YarnClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YarnClient.cpp; sourceTree = "<group>"; };
+		033B27431C066090005672A2 /* DeliveryNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeliveryNotificationManager.h; path = RoboCat/Inc/DeliveryNotificationManager.h; sourceTree = SOURCE_ROOT; };
+		033B27441C0660AE005672A2 /* AckRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AckRange.h; path = RoboCat/Inc/AckRange.h; sourceTree = SOURCE_ROOT; };
+		033B27451C0660AE005672A2 /* ByteSwap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ByteSwap.h; path = RoboCat/Inc/ByteSwap.h; sourceTree = SOURCE_ROOT; };
+		033B27461C0660AE005672A2 /* DeliveryNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeliveryNotificationManager.h; path = RoboCat/Inc/DeliveryNotificationManager.h; sourceTree = SOURCE_ROOT; };
+		033B27471C0660AE005672A2 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Engine.h; path = RoboCat/Inc/Engine.h; sourceTree = SOURCE_ROOT; };
+		033B27481C0660AE005672A2 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameObject.h; path = RoboCat/Inc/GameObject.h; sourceTree = SOURCE_ROOT; };
+		033B27491C0660AE005672A2 /* GameObjectRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameObjectRegistry.h; path = RoboCat/Inc/GameObjectRegistry.h; sourceTree = SOURCE_ROOT; };
+		033B274A1C0660AE005672A2 /* InFlightPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InFlightPacket.h; path = RoboCat/Inc/InFlightPacket.h; sourceTree = SOURCE_ROOT; };
+		033B274B1C0660AE005672A2 /* InputAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputAction.h; path = RoboCat/Inc/InputAction.h; sourceTree = SOURCE_ROOT; };
+		033B274C1C0660AE005672A2 /* InputState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputState.h; path = RoboCat/Inc/InputState.h; sourceTree = SOURCE_ROOT; };
+		033B274D1C0660AE005672A2 /* LinkingContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkingContext.h; path = RoboCat/Inc/LinkingContext.h; sourceTree = SOURCE_ROOT; };
+		033B274E1C0660AE005672A2 /* MemoryBitStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MemoryBitStream.h; path = RoboCat/Inc/MemoryBitStream.h; sourceTree = SOURCE_ROOT; };
+		033B274F1C0660AE005672A2 /* Mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mouse.h; path = RoboCat/Inc/Mouse.h; sourceTree = SOURCE_ROOT; };
+		033B27501C0660AE005672A2 /* Move.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Move.h; path = RoboCat/Inc/Move.h; sourceTree = SOURCE_ROOT; };
+		033B27511C0660AE005672A2 /* MoveList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoveList.h; path = RoboCat/Inc/MoveList.h; sourceTree = SOURCE_ROOT; };
+		033B27521C0660AE005672A2 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkManager.h; path = RoboCat/Inc/NetworkManager.h; sourceTree = SOURCE_ROOT; };
+		033B27531C0660AE005672A2 /* ReplicationCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReplicationCommand.h; path = RoboCat/Inc/ReplicationCommand.h; sourceTree = SOURCE_ROOT; };
+		033B27541C0660AE005672A2 /* RoboCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoboCat.h; path = RoboCat/Inc/RoboCat.h; sourceTree = SOURCE_ROOT; };
+		033B27551C0660AE005672A2 /* RoboCatPCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoboCatPCH.h; path = RoboCat/Inc/RoboCatPCH.h; sourceTree = SOURCE_ROOT; };
+		033B27561C0660AE005672A2 /* RoboCatShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoboCatShared.h; path = RoboCat/Inc/RoboCatShared.h; sourceTree = SOURCE_ROOT; };
+		033B27571C0660AE005672A2 /* RoboMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoboMath.h; path = RoboCat/Inc/RoboMath.h; sourceTree = SOURCE_ROOT; };
+		033B27581C0660AE005672A2 /* ScoreBoardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScoreBoardManager.h; path = RoboCat/Inc/ScoreBoardManager.h; sourceTree = SOURCE_ROOT; };
+		033B27591C0660AE005672A2 /* SocketAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketAddress.h; path = RoboCat/Inc/SocketAddress.h; sourceTree = SOURCE_ROOT; };
+		033B275A1C0660AE005672A2 /* SocketAddressFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketAddressFactory.h; path = RoboCat/Inc/SocketAddressFactory.h; sourceTree = SOURCE_ROOT; };
+		033B275B1C0660AE005672A2 /* SocketUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketUtil.h; path = RoboCat/Inc/SocketUtil.h; sourceTree = SOURCE_ROOT; };
+		033B275C1C0660AE005672A2 /* StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringUtils.h; path = RoboCat/Inc/StringUtils.h; sourceTree = SOURCE_ROOT; };
+		033B275D1C0660AE005672A2 /* TCPSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCPSocket.h; path = RoboCat/Inc/TCPSocket.h; sourceTree = SOURCE_ROOT; };
+		033B275E1C0660AE005672A2 /* Timing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Timing.h; path = RoboCat/Inc/Timing.h; sourceTree = SOURCE_ROOT; };
+		033B275F1C0660AE005672A2 /* TransmissionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransmissionData.h; path = RoboCat/Inc/TransmissionData.h; sourceTree = SOURCE_ROOT; };
+		033B27601C0660AE005672A2 /* UDPSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UDPSocket.h; path = RoboCat/Inc/UDPSocket.h; sourceTree = SOURCE_ROOT; };
+		033B27611C0660AE005672A2 /* WeightedTimedMovingAverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeightedTimedMovingAverage.h; path = RoboCat/Inc/WeightedTimedMovingAverage.h; sourceTree = SOURCE_ROOT; };
+		033B27621C0660AE005672A2 /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = World.h; path = RoboCat/Inc/World.h; sourceTree = SOURCE_ROOT; };
+		033B27631C0660AE005672A2 /* Yarn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Yarn.h; path = RoboCat/Inc/Yarn.h; sourceTree = SOURCE_ROOT; };
+		033B27AF1C06613B005672A2 /* AckRange.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AckRange.cpp; path = RoboCat/Src/AckRange.cpp; sourceTree = SOURCE_ROOT; };
+		033B27B01C06613B005672A2 /* DeliveryNotificationManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DeliveryNotificationManager.cpp; path = RoboCat/Src/DeliveryNotificationManager.cpp; sourceTree = SOURCE_ROOT; };
+		033B27B11C06613B005672A2 /* Engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Engine.cpp; path = RoboCat/Src/Engine.cpp; sourceTree = SOURCE_ROOT; };
+		033B27B21C06613B005672A2 /* GameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameObject.cpp; path = RoboCat/Src/GameObject.cpp; sourceTree = SOURCE_ROOT; };
+		033B27B31C06613B005672A2 /* GameObjectRegistry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameObjectRegistry.cpp; path = RoboCat/Src/GameObjectRegistry.cpp; sourceTree = SOURCE_ROOT; };
+		033B27B41C06613B005672A2 /* InFlightPacket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InFlightPacket.cpp; path = RoboCat/Src/InFlightPacket.cpp; sourceTree = SOURCE_ROOT; };
+		033B27B51C06613B005672A2 /* InputState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InputState.cpp; path = RoboCat/Src/InputState.cpp; sourceTree = SOURCE_ROOT; };
+		033B27B61C06613B005672A2 /* MemoryBitStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MemoryBitStream.cpp; path = RoboCat/Src/MemoryBitStream.cpp; sourceTree = SOURCE_ROOT; };
+		033B27B71C06613B005672A2 /* Mouse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Mouse.cpp; path = RoboCat/Src/Mouse.cpp; sourceTree = SOURCE_ROOT; };
+		033B27B81C06613B005672A2 /* Move.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Move.cpp; path = RoboCat/Src/Move.cpp; sourceTree = SOURCE_ROOT; };
+		033B27B91C06613B005672A2 /* MoveList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MoveList.cpp; path = RoboCat/Src/MoveList.cpp; sourceTree = SOURCE_ROOT; };
+		033B27BA1C06613B005672A2 /* NetworkManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NetworkManager.cpp; path = RoboCat/Src/NetworkManager.cpp; sourceTree = SOURCE_ROOT; };
+		033B27BB1C06613B005672A2 /* RoboCat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RoboCat.cpp; path = RoboCat/Src/RoboCat.cpp; sourceTree = SOURCE_ROOT; };
+		033B27BC1C06613B005672A2 /* RoboCatPCH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RoboCatPCH.cpp; path = RoboCat/Src/RoboCatPCH.cpp; sourceTree = SOURCE_ROOT; };
+		033B27BD1C06613B005672A2 /* RoboMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RoboMath.cpp; path = RoboCat/Src/RoboMath.cpp; sourceTree = SOURCE_ROOT; };
+		033B27BE1C06613B005672A2 /* ScoreBoardManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScoreBoardManager.cpp; path = RoboCat/Src/ScoreBoardManager.cpp; sourceTree = SOURCE_ROOT; };
+		033B27BF1C06613B005672A2 /* SocketAddress.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SocketAddress.cpp; path = RoboCat/Src/SocketAddress.cpp; sourceTree = SOURCE_ROOT; };
+		033B27C01C06613B005672A2 /* SocketAddressFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SocketAddressFactory.cpp; path = RoboCat/Src/SocketAddressFactory.cpp; sourceTree = SOURCE_ROOT; };
+		033B27C11C06613B005672A2 /* SocketUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SocketUtil.cpp; path = RoboCat/Src/SocketUtil.cpp; sourceTree = SOURCE_ROOT; };
+		033B27C21C06613B005672A2 /* StringUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StringUtils.cpp; path = RoboCat/Src/StringUtils.cpp; sourceTree = SOURCE_ROOT; };
+		033B27C31C06613B005672A2 /* TCPSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TCPSocket.cpp; path = RoboCat/Src/TCPSocket.cpp; sourceTree = SOURCE_ROOT; };
+		033B27C41C06613B005672A2 /* Timing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Timing.cpp; path = RoboCat/Src/Timing.cpp; sourceTree = SOURCE_ROOT; };
+		033B27C51C06613B005672A2 /* UDPSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UDPSocket.cpp; path = RoboCat/Src/UDPSocket.cpp; sourceTree = SOURCE_ROOT; };
+		033B27C61C06613B005672A2 /* World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = World.cpp; path = RoboCat/Src/World.cpp; sourceTree = SOURCE_ROOT; };
+		033B27C71C06613B005672A2 /* Yarn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Yarn.cpp; path = RoboCat/Src/Yarn.cpp; sourceTree = SOURCE_ROOT; };
+		033B27FA1C0661E1005672A2 /* ClientProxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClientProxy.cpp; sourceTree = "<group>"; };
+		033B27FB1C0661E1005672A2 /* MouseServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MouseServer.cpp; sourceTree = "<group>"; };
+		033B27FC1C0661E1005672A2 /* NetworkManagerServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkManagerServer.cpp; sourceTree = "<group>"; };
+		033B27FD1C0661E1005672A2 /* ReplicationManagerServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReplicationManagerServer.cpp; sourceTree = "<group>"; };
+		033B27FE1C0661E1005672A2 /* ReplicationManagerTransmissionData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReplicationManagerTransmissionData.cpp; sourceTree = "<group>"; };
+		033B27FF1C0661E1005672A2 /* RoboCatServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RoboCatServer.cpp; sourceTree = "<group>"; };
+		033B28001C0661E1005672A2 /* RoboCatServerPCH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RoboCatServerPCH.cpp; sourceTree = "<group>"; };
+		033B28011C0661E1005672A2 /* Server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Server.cpp; sourceTree = "<group>"; };
+		033B28021C0661E1005672A2 /* ServerMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ServerMain.cpp; sourceTree = "<group>"; };
+		033B28031C0661E1005672A2 /* YarnServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YarnServer.cpp; sourceTree = "<group>"; };
+		035E45E31C064F3000CCB512 /* Engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Engine.h; path = RoboCat/Inc/Engine.h; sourceTree = SOURCE_ROOT; };
+		035E45E41C064F3000CCB512 /* GameObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameObject.h; path = RoboCat/Inc/GameObject.h; sourceTree = SOURCE_ROOT; };
+		035E45E51C064F3000CCB512 /* GameObjectRegistry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameObjectRegistry.h; path = RoboCat/Inc/GameObjectRegistry.h; sourceTree = SOURCE_ROOT; };
+		035E45E61C064F3000CCB512 /* InputAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InputAction.h; path = RoboCat/Inc/InputAction.h; sourceTree = SOURCE_ROOT; };
+		035E45E71C064F3000CCB512 /* InputState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InputState.h; path = RoboCat/Inc/InputState.h; sourceTree = SOURCE_ROOT; };
+		035E45E81C064F3000CCB512 /* MemoryBitStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MemoryBitStream.h; path = RoboCat/Inc/MemoryBitStream.h; sourceTree = SOURCE_ROOT; };
+		035E45E91C064F3000CCB512 /* Mouse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Mouse.h; path = RoboCat/Inc/Mouse.h; sourceTree = SOURCE_ROOT; };
+		035E45EA1C064F3000CCB512 /* Move.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Move.h; path = RoboCat/Inc/Move.h; sourceTree = SOURCE_ROOT; };
+		035E45EB1C064F3000CCB512 /* MoveList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MoveList.h; path = RoboCat/Inc/MoveList.h; sourceTree = SOURCE_ROOT; };
+		035E45EC1C064F3000CCB512 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NetworkManager.h; path = RoboCat/Inc/NetworkManager.h; sourceTree = SOURCE_ROOT; };
+		035E45ED1C064F3000CCB512 /* ReplicationCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ReplicationCommand.h; path = RoboCat/Inc/ReplicationCommand.h; sourceTree = SOURCE_ROOT; };
+		035E45EE1C064F3000CCB512 /* RoboCat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RoboCat.h; path = RoboCat/Inc/RoboCat.h; sourceTree = SOURCE_ROOT; };
+		035E45EF1C064F3000CCB512 /* RoboCatPCH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RoboCatPCH.h; path = RoboCat/Inc/RoboCatPCH.h; sourceTree = SOURCE_ROOT; };
+		035E45F01C064F3000CCB512 /* RoboCatShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RoboCatShared.h; path = RoboCat/Inc/RoboCatShared.h; sourceTree = SOURCE_ROOT; };
+		035E45F11C064F3000CCB512 /* RoboMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RoboMath.h; path = RoboCat/Inc/RoboMath.h; sourceTree = SOURCE_ROOT; };
+		035E45F21C064F3000CCB512 /* ScoreBoardManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ScoreBoardManager.h; path = RoboCat/Inc/ScoreBoardManager.h; sourceTree = SOURCE_ROOT; };
+		035E45F31C064F3000CCB512 /* SocketAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SocketAddress.h; path = RoboCat/Inc/SocketAddress.h; sourceTree = SOURCE_ROOT; };
+		035E45F41C064F3000CCB512 /* SocketAddressFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SocketAddressFactory.h; path = RoboCat/Inc/SocketAddressFactory.h; sourceTree = SOURCE_ROOT; };
+		035E45F51C064F3000CCB512 /* SocketUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SocketUtil.h; path = RoboCat/Inc/SocketUtil.h; sourceTree = SOURCE_ROOT; };
+		035E45F61C064F3000CCB512 /* StringUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StringUtils.h; path = RoboCat/Inc/StringUtils.h; sourceTree = SOURCE_ROOT; };
+		035E45F71C064F3000CCB512 /* TCPSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCPSocket.h; path = RoboCat/Inc/TCPSocket.h; sourceTree = SOURCE_ROOT; };
+		035E45F81C064F3000CCB512 /* Timing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Timing.h; path = RoboCat/Inc/Timing.h; sourceTree = SOURCE_ROOT; };
+		035E45F91C064F3000CCB512 /* UDPSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UDPSocket.h; path = RoboCat/Inc/UDPSocket.h; sourceTree = SOURCE_ROOT; };
+		035E45FA1C064F3000CCB512 /* WeightedTimedMovingAverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WeightedTimedMovingAverage.h; path = RoboCat/Inc/WeightedTimedMovingAverage.h; sourceTree = SOURCE_ROOT; };
+		035E45FB1C064F3000CCB512 /* World.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = World.h; path = RoboCat/Inc/World.h; sourceTree = SOURCE_ROOT; };
+		035E45FC1C064F3000CCB512 /* Yarn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Yarn.h; path = RoboCat/Inc/Yarn.h; sourceTree = SOURCE_ROOT; };
+		035E462C1C0651FB00CCB512 /* ClientProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientProxy.h; sourceTree = "<group>"; };
+		035E462D1C0651FB00CCB512 /* MouseServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseServer.h; sourceTree = "<group>"; };
+		035E462E1C0651FB00CCB512 /* NetworkManagerServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManagerServer.h; sourceTree = "<group>"; };
+		035E462F1C0651FB00CCB512 /* ReplicationManagerServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplicationManagerServer.h; sourceTree = "<group>"; };
+		035E46301C0651FB00CCB512 /* RoboCatServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoboCatServer.h; sourceTree = "<group>"; };
+		035E46311C0651FB00CCB512 /* RoboCatServerPCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoboCatServerPCH.h; sourceTree = "<group>"; };
+		035E46321C0651FB00CCB512 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		035E46331C0651FB00CCB512 /* YarnServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YarnServer.h; sourceTree = "<group>"; };
+		9202F92D1BFFE0DF00C30060 /* RoboCatActionServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RoboCatActionServer; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		033B27081C065833005672A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9202F92A1BFFE0DF00C30060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033B270F1C065871005672A2 /* RoboCatClient */ = {
+			isa = PBXGroup;
+			children = (
+				033B27101C065871005672A2 /* Inc */,
+				033B27221C065871005672A2 /* Src */,
+			);
+			path = RoboCatClient;
+			sourceTree = "<group>";
+		};
+		033B27101C065871005672A2 /* Inc */ = {
+			isa = PBXGroup;
+			children = (
+				033B27111C065871005672A2 /* Client.h */,
+				033B27121C065871005672A2 /* GraphicsDriver.h */,
+				033B27131C065871005672A2 /* HUD.h */,
+				033B27141C065871005672A2 /* InputManager.h */,
+				033B27151C065871005672A2 /* MouseClient.h */,
+				033B27161C065871005672A2 /* NetworkManagerClient.h */,
+				033B27171C065871005672A2 /* RenderManager.h */,
+				033B27181C065871005672A2 /* ReplicationManagerClient.h */,
+				033B27191C065871005672A2 /* RoboCatClient.h */,
+				033B271A1C065871005672A2 /* RoboCatClientPCH.h */,
+				033B271B1C065871005672A2 /* SpriteComponent.h */,
+				033B271C1C065871005672A2 /* Texture.h */,
+				033B271D1C065871005672A2 /* TextureManager.h */,
+				033B271E1C065871005672A2 /* WindowManager.h */,
+				033B271F1C065871005672A2 /* YarnClient.h */,
+			);
+			path = Inc;
+			sourceTree = "<group>";
+		};
+		033B27221C065871005672A2 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				033B27231C065871005672A2 /* Client.cpp */,
+				033B27241C065871005672A2 /* ClientMain.cpp */,
+				033B27251C065871005672A2 /* GraphicsDriver.cpp */,
+				033B27261C065871005672A2 /* HUD.cpp */,
+				033B27271C065871005672A2 /* InputManager.cpp */,
+				033B27281C065871005672A2 /* MouseClient.cpp */,
+				033B27291C065871005672A2 /* NetworkManagerClient.cpp */,
+				033B272A1C065871005672A2 /* RenderManager.cpp */,
+				033B272B1C065871005672A2 /* ReplicationManagerClient.cpp */,
+				033B272C1C065871005672A2 /* RoboCatClient.cpp */,
+				033B272D1C065871005672A2 /* RoboCatClientPCH.cpp */,
+				033B272E1C065871005672A2 /* SpriteComponent.cpp */,
+				033B272F1C065871005672A2 /* Texture.cpp */,
+				033B27301C065871005672A2 /* TextureManager.cpp */,
+				033B27311C065871005672A2 /* WindowManager.cpp */,
+				033B27321C065871005672A2 /* YarnClient.cpp */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		035E462A1C0651FB00CCB512 /* RoboCatServer */ = {
+			isa = PBXGroup;
+			children = (
+				035E462B1C0651FB00CCB512 /* Inc */,
+				035E46361C0651FB00CCB512 /* Src */,
+			);
+			path = RoboCatServer;
+			sourceTree = "<group>";
+		};
+		035E462B1C0651FB00CCB512 /* Inc */ = {
+			isa = PBXGroup;
+			children = (
+				035E462C1C0651FB00CCB512 /* ClientProxy.h */,
+				035E462D1C0651FB00CCB512 /* MouseServer.h */,
+				035E462E1C0651FB00CCB512 /* NetworkManagerServer.h */,
+				035E462F1C0651FB00CCB512 /* ReplicationManagerServer.h */,
+				035E46301C0651FB00CCB512 /* RoboCatServer.h */,
+				035E46311C0651FB00CCB512 /* RoboCatServerPCH.h */,
+				035E46321C0651FB00CCB512 /* Server.h */,
+				035E46331C0651FB00CCB512 /* YarnServer.h */,
+			);
+			path = Inc;
+			sourceTree = "<group>";
+		};
+		035E46361C0651FB00CCB512 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				033B27FA1C0661E1005672A2 /* ClientProxy.cpp */,
+				033B27FB1C0661E1005672A2 /* MouseServer.cpp */,
+				033B27FC1C0661E1005672A2 /* NetworkManagerServer.cpp */,
+				033B27FD1C0661E1005672A2 /* ReplicationManagerServer.cpp */,
+				033B27FE1C0661E1005672A2 /* ReplicationManagerTransmissionData.cpp */,
+				033B27FF1C0661E1005672A2 /* RoboCatServer.cpp */,
+				033B28001C0661E1005672A2 /* RoboCatServerPCH.cpp */,
+				033B28011C0661E1005672A2 /* Server.cpp */,
+				033B28021C0661E1005672A2 /* ServerMain.cpp */,
+				033B28031C0661E1005672A2 /* YarnServer.cpp */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		9202F9241BFFE0DF00C30060 = {
+			isa = PBXGroup;
+			children = (
+				033B270F1C065871005672A2 /* RoboCatClient */,
+				035E462A1C0651FB00CCB512 /* RoboCatServer */,
+				9202F92F1BFFE0DF00C30060 /* RoboCat */,
+				9202F92E1BFFE0DF00C30060 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9202F92E1BFFE0DF00C30060 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9202F92D1BFFE0DF00C30060 /* RoboCatActionServer */,
+				033B270E1C065833005672A2 /* RoboCatActionClient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9202F92F1BFFE0DF00C30060 /* RoboCat */ = {
+			isa = PBXGroup;
+			children = (
+				923CDDD31BFFE22F00802F90 /* Src */,
+				923CDDD21BFFE22800802F90 /* Inc */,
+			);
+			name = RoboCat;
+			path = RoboCatRTS;
+			sourceTree = "<group>";
+		};
+		923CDDD21BFFE22800802F90 /* Inc */ = {
+			isa = PBXGroup;
+			children = (
+				033B27441C0660AE005672A2 /* AckRange.h */,
+				033B27451C0660AE005672A2 /* ByteSwap.h */,
+				033B27461C0660AE005672A2 /* DeliveryNotificationManager.h */,
+				033B27471C0660AE005672A2 /* Engine.h */,
+				033B27481C0660AE005672A2 /* GameObject.h */,
+				033B27491C0660AE005672A2 /* GameObjectRegistry.h */,
+				033B274A1C0660AE005672A2 /* InFlightPacket.h */,
+				033B274B1C0660AE005672A2 /* InputAction.h */,
+				033B274C1C0660AE005672A2 /* InputState.h */,
+				033B274D1C0660AE005672A2 /* LinkingContext.h */,
+				033B274E1C0660AE005672A2 /* MemoryBitStream.h */,
+				033B274F1C0660AE005672A2 /* Mouse.h */,
+				033B27501C0660AE005672A2 /* Move.h */,
+				033B27511C0660AE005672A2 /* MoveList.h */,
+				033B27521C0660AE005672A2 /* NetworkManager.h */,
+				033B27531C0660AE005672A2 /* ReplicationCommand.h */,
+				033B27541C0660AE005672A2 /* RoboCat.h */,
+				033B27551C0660AE005672A2 /* RoboCatPCH.h */,
+				033B27561C0660AE005672A2 /* RoboCatShared.h */,
+				033B27571C0660AE005672A2 /* RoboMath.h */,
+				033B27581C0660AE005672A2 /* ScoreBoardManager.h */,
+				033B27591C0660AE005672A2 /* SocketAddress.h */,
+				033B275A1C0660AE005672A2 /* SocketAddressFactory.h */,
+				033B275B1C0660AE005672A2 /* SocketUtil.h */,
+				033B275C1C0660AE005672A2 /* StringUtils.h */,
+				033B275D1C0660AE005672A2 /* TCPSocket.h */,
+				033B275E1C0660AE005672A2 /* Timing.h */,
+				033B275F1C0660AE005672A2 /* TransmissionData.h */,
+				033B27601C0660AE005672A2 /* UDPSocket.h */,
+				033B27611C0660AE005672A2 /* WeightedTimedMovingAverage.h */,
+				033B27621C0660AE005672A2 /* World.h */,
+				033B27631C0660AE005672A2 /* Yarn.h */,
+				033B27431C066090005672A2 /* DeliveryNotificationManager.h */,
+				035E45E31C064F3000CCB512 /* Engine.h */,
+				035E45E41C064F3000CCB512 /* GameObject.h */,
+				035E45E51C064F3000CCB512 /* GameObjectRegistry.h */,
+				035E45E61C064F3000CCB512 /* InputAction.h */,
+				035E45E71C064F3000CCB512 /* InputState.h */,
+				035E45E81C064F3000CCB512 /* MemoryBitStream.h */,
+				035E45E91C064F3000CCB512 /* Mouse.h */,
+				035E45EA1C064F3000CCB512 /* Move.h */,
+				035E45EB1C064F3000CCB512 /* MoveList.h */,
+				035E45EC1C064F3000CCB512 /* NetworkManager.h */,
+				035E45ED1C064F3000CCB512 /* ReplicationCommand.h */,
+				035E45EE1C064F3000CCB512 /* RoboCat.h */,
+				035E45EF1C064F3000CCB512 /* RoboCatPCH.h */,
+				035E45F01C064F3000CCB512 /* RoboCatShared.h */,
+				035E45F11C064F3000CCB512 /* RoboMath.h */,
+				035E45F21C064F3000CCB512 /* ScoreBoardManager.h */,
+				035E45F31C064F3000CCB512 /* SocketAddress.h */,
+				035E45F41C064F3000CCB512 /* SocketAddressFactory.h */,
+				035E45F51C064F3000CCB512 /* SocketUtil.h */,
+				035E45F61C064F3000CCB512 /* StringUtils.h */,
+				035E45F71C064F3000CCB512 /* TCPSocket.h */,
+				035E45F81C064F3000CCB512 /* Timing.h */,
+				035E45F91C064F3000CCB512 /* UDPSocket.h */,
+				035E45FA1C064F3000CCB512 /* WeightedTimedMovingAverage.h */,
+				035E45FB1C064F3000CCB512 /* World.h */,
+				035E45FC1C064F3000CCB512 /* Yarn.h */,
+			);
+			path = Inc;
+			sourceTree = "<group>";
+		};
+		923CDDD31BFFE22F00802F90 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				033B27AF1C06613B005672A2 /* AckRange.cpp */,
+				033B27B01C06613B005672A2 /* DeliveryNotificationManager.cpp */,
+				033B27B11C06613B005672A2 /* Engine.cpp */,
+				033B27B21C06613B005672A2 /* GameObject.cpp */,
+				033B27B31C06613B005672A2 /* GameObjectRegistry.cpp */,
+				033B27B41C06613B005672A2 /* InFlightPacket.cpp */,
+				033B27B51C06613B005672A2 /* InputState.cpp */,
+				033B27B61C06613B005672A2 /* MemoryBitStream.cpp */,
+				033B27B71C06613B005672A2 /* Mouse.cpp */,
+				033B27B81C06613B005672A2 /* Move.cpp */,
+				033B27B91C06613B005672A2 /* MoveList.cpp */,
+				033B27BA1C06613B005672A2 /* NetworkManager.cpp */,
+				033B27BB1C06613B005672A2 /* RoboCat.cpp */,
+				033B27BC1C06613B005672A2 /* RoboCatPCH.cpp */,
+				033B27BD1C06613B005672A2 /* RoboMath.cpp */,
+				033B27BE1C06613B005672A2 /* ScoreBoardManager.cpp */,
+				033B27BF1C06613B005672A2 /* SocketAddress.cpp */,
+				033B27C01C06613B005672A2 /* SocketAddressFactory.cpp */,
+				033B27C11C06613B005672A2 /* SocketUtil.cpp */,
+				033B27C21C06613B005672A2 /* StringUtils.cpp */,
+				033B27C31C06613B005672A2 /* TCPSocket.cpp */,
+				033B27C41C06613B005672A2 /* Timing.cpp */,
+				033B27C51C06613B005672A2 /* UDPSocket.cpp */,
+				033B27C61C06613B005672A2 /* World.cpp */,
+				033B27C71C06613B005672A2 /* Yarn.cpp */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		033B26E71C065833005672A2 /* RoboCatActionClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033B270B1C065833005672A2 /* Build configuration list for PBXNativeTarget "RoboCatActionClient" */;
+			buildPhases = (
+				033B26E81C065833005672A2 /* Sources */,
+				033B27081C065833005672A2 /* Frameworks */,
+				033B27091C065833005672A2 /* CopyFiles */,
+				033B270A1C065833005672A2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoboCatActionClient;
+			productName = RoboCatRTS;
+			productReference = 033B270E1C065833005672A2 /* RoboCatActionClient */;
+			productType = "com.apple.product-type.tool";
+		};
+		9202F92C1BFFE0DF00C30060 /* RoboCatActionServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9202F9341BFFE0DF00C30060 /* Build configuration list for PBXNativeTarget "RoboCatActionServer" */;
+			buildPhases = (
+				9202F9291BFFE0DF00C30060 /* Sources */,
+				9202F92A1BFFE0DF00C30060 /* Frameworks */,
+				9202F92B1BFFE0DF00C30060 /* CopyFiles */,
+				923CDE321BFFEF8400802F90 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoboCatActionServer;
+			productName = RoboCatRTS;
+			productReference = 9202F92D1BFFE0DF00C30060 /* RoboCatActionServer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9202F9251BFFE0DF00C30060 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				TargetAttributes = {
+					9202F92C1BFFE0DF00C30060 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 9202F9281BFFE0DF00C30060 /* Build configuration list for PBXProject "RoboCatAction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9202F9241BFFE0DF00C30060;
+			productRefGroup = 9202F92E1BFFE0DF00C30060 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9202F92C1BFFE0DF00C30060 /* RoboCatActionServer */,
+				033B26E71C065833005672A2 /* RoboCatActionClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		033B270A1C065833005672A2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -d \"$BUILD_DIR/Debug\" ]; then\n    cp \"$SRCROOT/SDL/lib/mac/\"*.dylib \"$BUILD_DIR/Debug\"\n    cp -R \"$SRCROOT/Assets\" \"$BUILD_DIR\"\n    install_name_tool -change /usr/local/lib/libSDL2_ttf-2.0.0.dylib @executable_path/libSDL2_ttf-2.0.0.dylib \"$BUILD_DIR/Debug/RoboCatActionClient\"\n    install_name_tool -change /usr/local/lib/libSDL2-2.0.0.dylib @executable_path/libSDL2-2.0.0.dylib \"$BUILD_DIR/Debug/RoboCatActionClient\"\n    install_name_tool -change /usr/local/lib/libSDL2_image-2.0.0.dylib @executable_path/libSDL2_image-2.0.0.dylib \"$BUILD_DIR/Debug/RoboCatActionClient\"\n    install_name_tool -change /usr/local/lib/libfreetype.6.dylib @executable_path/libfreetype.6.dylib \"$BUILD_DIR/Debug/RoboCatActionClient\"\n    install_name_tool -change /usr/local/lib/libpng16.16.dylib @executable_path/libpng16.16.dylib \"$BUILD_DIR/Debug/RoboCatActionClient\"\nfi\n                                     \nif [ -d \"$BUILD_DIR/Release\" ]; then\n    cp \"$SRCROOT/SDL/lib/mac/\"*.dylib \"$BUILD_DIR/Release\"\n    cp -R \"$SRCROOT/Assets\" \"$BUILD_DIR\"\n    install_name_tool -change /usr/local/lib/libSDL2_ttf-2.0.0.dylib @executable_path/libSDL2_ttf-2.0.0.dylib \"$BUILD_DIR/Release/RoboCatActionClient\"\n    install_name_tool -change /usr/local/lib/libSDL2-2.0.0.dylib @executable_path/libSDL2-2.0.0.dylib \"$BUILD_DIR/Release/RoboCatActionClient\"\n    install_name_tool -change /usr/local/lib/libSDL2_image-2.0.0.dylib @executable_path/libSDL2_image-2.0.0.dylib \"$BUILD_DIR/Release/RoboCatActionClient\"\n    install_name_tool -change /usr/local/lib/libfreetype.6.dylib @executable_path/libfreetype.6.dylib \"$BUILD_DIR/Release/RoboCatActionClient\"\n    install_name_tool -change /usr/local/lib/libpng16.16.dylib @executable_path/libpng16.16.dylib \"$BUILD_DIR/Release/RoboCatActionClient\"\nfi";
+		};
+		923CDE321BFFEF8400802F90 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -d \"$BUILD_DIR/Debug\" ]; then\n    cp \"$SRCROOT/SDL/lib/mac/\"*.dylib \"$BUILD_DIR/Debug\"\n    cp -R \"$SRCROOT/Assets\" \"$BUILD_DIR\"\n    install_name_tool -change /usr/local/lib/libSDL2_ttf-2.0.0.dylib @executable_path/libSDL2_ttf-2.0.0.dylib \"$BUILD_DIR/Debug/RoboCatActionServer\"\n    install_name_tool -change /usr/local/lib/libSDL2-2.0.0.dylib @executable_path/libSDL2-2.0.0.dylib \"$BUILD_DIR/Debug/RoboCatActionServer\"\n    install_name_tool -change /usr/local/lib/libSDL2_image-2.0.0.dylib @executable_path/libSDL2_image-2.0.0.dylib \"$BUILD_DIR/Debug/RoboCatActionServer\"\n    install_name_tool -change /usr/local/lib/libfreetype.6.dylib @executable_path/libfreetype.6.dylib \"$BUILD_DIR/Debug/RoboCatActionServer\"\n    install_name_tool -change /usr/local/lib/libpng16.16.dylib @executable_path/libpng16.16.dylib \"$BUILD_DIR/Debug/RoboCatActionServer\"\nfi\n                                     \nif [ -d \"$BUILD_DIR/Release\" ]; then\n    cp \"$SRCROOT/SDL/lib/mac/\"*.dylib \"$BUILD_DIR/Release\"\n    cp -R \"$SRCROOT/Assets\" \"$BUILD_DIR\"\n    install_name_tool -change /usr/local/lib/libSDL2_ttf-2.0.0.dylib @executable_path/libSDL2_ttf-2.0.0.dylib \"$BUILD_DIR/Release/RoboCatActionServer\"\n    install_name_tool -change /usr/local/lib/libSDL2-2.0.0.dylib @executable_path/libSDL2-2.0.0.dylib \"$BUILD_DIR/Release/RoboCatActionServer\"\n    install_name_tool -change /usr/local/lib/libSDL2_image-2.0.0.dylib @executable_path/libSDL2_image-2.0.0.dylib \"$BUILD_DIR/Release/RoboCatActionServer\"\n    install_name_tool -change /usr/local/lib/libfreetype.6.dylib @executable_path/libfreetype.6.dylib \"$BUILD_DIR/Release/RoboCatActionServer\"\n    install_name_tool -change /usr/local/lib/libpng16.16.dylib @executable_path/libpng16.16.dylib \"$BUILD_DIR/Release/RoboCatActionServer\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		033B26E81C065833005672A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033B273B1C065871005672A2 /* ReplicationManagerClient.cpp in Sources */,
+				033B27D91C06613B005672A2 /* Mouse.cpp in Sources */,
+				033B273C1C065871005672A2 /* RoboCatClient.cpp in Sources */,
+				033B27421C065871005672A2 /* YarnClient.cpp in Sources */,
+				033B27DB1C06613B005672A2 /* Move.cpp in Sources */,
+				033B27E71C06613B005672A2 /* ScoreBoardManager.cpp in Sources */,
+				033B27381C065871005672A2 /* MouseClient.cpp in Sources */,
+				033B27F31C06613B005672A2 /* Timing.cpp in Sources */,
+				033B27F51C06613B005672A2 /* UDPSocket.cpp in Sources */,
+				033B27E11C06613B005672A2 /* RoboCat.cpp in Sources */,
+				033B27CF1C06613B005672A2 /* GameObject.cpp in Sources */,
+				033B273F1C065871005672A2 /* Texture.cpp in Sources */,
+				033B27D31C06613B005672A2 /* InFlightPacket.cpp in Sources */,
+				033B273A1C065871005672A2 /* RenderManager.cpp in Sources */,
+				033B27EF1C06613B005672A2 /* StringUtils.cpp in Sources */,
+				033B27411C065871005672A2 /* WindowManager.cpp in Sources */,
+				033B27DD1C06613B005672A2 /* MoveList.cpp in Sources */,
+				033B27401C065871005672A2 /* TextureManager.cpp in Sources */,
+				033B27E51C06613B005672A2 /* RoboMath.cpp in Sources */,
+				033B27E31C06613B005672A2 /* RoboCatPCH.cpp in Sources */,
+				033B273E1C065871005672A2 /* SpriteComponent.cpp in Sources */,
+				033B27E91C06613B005672A2 /* SocketAddress.cpp in Sources */,
+				033B27ED1C06613B005672A2 /* SocketUtil.cpp in Sources */,
+				033B27341C065871005672A2 /* ClientMain.cpp in Sources */,
+				033B27CB1C06613B005672A2 /* DeliveryNotificationManager.cpp in Sources */,
+				033B27F91C06613B005672A2 /* Yarn.cpp in Sources */,
+				033B27391C065871005672A2 /* NetworkManagerClient.cpp in Sources */,
+				033B27F71C06613B005672A2 /* World.cpp in Sources */,
+				033B273D1C065871005672A2 /* RoboCatClientPCH.cpp in Sources */,
+				033B27331C065871005672A2 /* Client.cpp in Sources */,
+				033B27F11C06613B005672A2 /* TCPSocket.cpp in Sources */,
+				033B27EB1C06613B005672A2 /* SocketAddressFactory.cpp in Sources */,
+				033B27D71C06613B005672A2 /* MemoryBitStream.cpp in Sources */,
+				033B27DF1C06613B005672A2 /* NetworkManager.cpp in Sources */,
+				033B27CD1C06613B005672A2 /* Engine.cpp in Sources */,
+				033B27361C065871005672A2 /* HUD.cpp in Sources */,
+				033B27C91C06613B005672A2 /* AckRange.cpp in Sources */,
+				033B27371C065871005672A2 /* InputManager.cpp in Sources */,
+				033B27D11C06613B005672A2 /* GameObjectRegistry.cpp in Sources */,
+				033B27D51C06613B005672A2 /* InputState.cpp in Sources */,
+				033B27351C065871005672A2 /* GraphicsDriver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9202F9291BFFE0DF00C30060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033B28091C0661E1005672A2 /* RoboCatServer.cpp in Sources */,
+				033B280A1C0661E1005672A2 /* RoboCatServerPCH.cpp in Sources */,
+				033B280D1C0661E1005672A2 /* YarnServer.cpp in Sources */,
+				033B27D41C06613B005672A2 /* InputState.cpp in Sources */,
+				033B28041C0661E1005672A2 /* ClientProxy.cpp in Sources */,
+				033B27F21C06613B005672A2 /* Timing.cpp in Sources */,
+				033B27E81C06613B005672A2 /* SocketAddress.cpp in Sources */,
+				033B28071C0661E1005672A2 /* ReplicationManagerServer.cpp in Sources */,
+				033B27CC1C06613B005672A2 /* Engine.cpp in Sources */,
+				033B28061C0661E1005672A2 /* NetworkManagerServer.cpp in Sources */,
+				033B280C1C0661E1005672A2 /* ServerMain.cpp in Sources */,
+				033B27CE1C06613B005672A2 /* GameObject.cpp in Sources */,
+				033B280B1C0661E1005672A2 /* Server.cpp in Sources */,
+				033B27D01C06613B005672A2 /* GameObjectRegistry.cpp in Sources */,
+				033B27D61C06613B005672A2 /* MemoryBitStream.cpp in Sources */,
+				033B27D81C06613B005672A2 /* Mouse.cpp in Sources */,
+				033B27E61C06613B005672A2 /* ScoreBoardManager.cpp in Sources */,
+				033B27F81C06613B005672A2 /* Yarn.cpp in Sources */,
+				033B27DA1C06613B005672A2 /* Move.cpp in Sources */,
+				033B27DC1C06613B005672A2 /* MoveList.cpp in Sources */,
+				033B27F41C06613B005672A2 /* UDPSocket.cpp in Sources */,
+				033B27F61C06613B005672A2 /* World.cpp in Sources */,
+				033B27DE1C06613B005672A2 /* NetworkManager.cpp in Sources */,
+				033B27E01C06613B005672A2 /* RoboCat.cpp in Sources */,
+				033B27EE1C06613B005672A2 /* StringUtils.cpp in Sources */,
+				033B28081C0661E1005672A2 /* ReplicationManagerTransmissionData.cpp in Sources */,
+				033B27E41C06613B005672A2 /* RoboMath.cpp in Sources */,
+				033B27C81C06613B005672A2 /* AckRange.cpp in Sources */,
+				033B27D21C06613B005672A2 /* InFlightPacket.cpp in Sources */,
+				033B27E21C06613B005672A2 /* RoboCatPCH.cpp in Sources */,
+				033B27CA1C06613B005672A2 /* DeliveryNotificationManager.cpp in Sources */,
+				033B27EA1C06613B005672A2 /* SocketAddressFactory.cpp in Sources */,
+				033B28051C0661E1005672A2 /* MouseServer.cpp in Sources */,
+				033B27EC1C06613B005672A2 /* SocketUtil.cpp in Sources */,
+				033B27F01C06613B005672A2 /* TCPSocket.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		033B270C1C065833005672A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/SDL/include",
+					"$(SRCROOT)/RoboCatClient/Inc",
+					"$(SRCROOT)/RoboCat/Inc",
+				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/SDL/lib/mac";
+				OTHER_LDFLAGS = (
+					"-lSDL2_ttf-2.0.0",
+					"-lSDL2-2.0.0",
+					"-lSDL2_image-2.0.0",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		033B270D1C065833005672A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/SDL/include",
+					"$(SRCROOT)/RoboCatClient/Inc",
+					"$(SRCROOT)/RoboCat/Inc",
+				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/SDL/lib/mac";
+				OTHER_LDFLAGS = (
+					"-lSDL2_ttf-2.0.0",
+					"-lSDL2-2.0.0",
+					"-lSDL2_image-2.0.0",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9202F9321BFFE0DF00C30060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9202F9331BFFE0DF00C30060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9202F9351BFFE0DF00C30060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/SDL/include",
+					"$(SRCROOT)/RoboCatServer/Inc",
+					"$(SRCROOT)/RoboCat/Inc",
+				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/SDL/lib/mac";
+				OTHER_LDFLAGS = (
+					"-lSDL2_ttf-2.0.0",
+					"-lSDL2-2.0.0",
+					"-lSDL2_image-2.0.0",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9202F9361BFFE0DF00C30060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/SDL/include",
+					"$(SRCROOT)/RoboCatServer/Inc",
+					"$(SRCROOT)/RoboCat/Inc",
+				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/SDL/lib/mac";
+				OTHER_LDFLAGS = (
+					"-lSDL2_ttf-2.0.0",
+					"-lSDL2-2.0.0",
+					"-lSDL2_image-2.0.0",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		033B270B1C065833005672A2 /* Build configuration list for PBXNativeTarget "RoboCatActionClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033B270C1C065833005672A2 /* Debug */,
+				033B270D1C065833005672A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9202F9281BFFE0DF00C30060 /* Build configuration list for PBXProject "RoboCatAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9202F9321BFFE0DF00C30060 /* Debug */,
+				9202F9331BFFE0DF00C30060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9202F9341BFFE0DF00C30060 /* Build configuration list for PBXNativeTarget "RoboCatActionServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9202F9351BFFE0DF00C30060 /* Debug */,
+				9202F9361BFFE0DF00C30060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9202F9251BFFE0DF00C30060 /* Project object */;
+}

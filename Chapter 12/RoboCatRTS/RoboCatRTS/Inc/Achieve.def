@@ -1,0 +1,8 @@
+//We'll use this for killing 1 unit
+ACH(ACH_WIN_ONE_GAME)
+//We'll use this for killing 100 units
+ACH(ACH_WIN_100_GAMES)
+//Travel lots over time
+ACH(ACH_TRAVEL_FAR_ACCUM)
+//Travel this game
+ACH(ACH_TRAVEL_FAR_SINGLE)

@@ -1,0 +1,1426 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"g",
+				"gVMMURL"
+			],
+			[
+				"shut",
+				"shuttingDown"
+			],
+			[
+				"req",
+				"requiredFields"
+			],
+			[
+				"Training",
+				"TrainingCurrency"
+			],
+			[
+				"giv",
+				"giveCards"
+			],
+			[
+				"cardInst",
+				"cardInstance"
+			],
+			[
+				"buf",
+				"buffableCardInstances〔variable〕"
+			],
+			[
+				"loggedI",
+				"loggedInUser"
+			],
+			[
+				"Wrong",
+				"WrongUserOrPassword"
+			],
+			[
+				"jsonM",
+				"jsonMW〔variable〕"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"Train",
+				"TrainingCurrency"
+			],
+			[
+				"Schedul",
+				"scheduledEventManager  (variable)"
+			],
+			[
+				"zrev",
+				"zrevrank"
+			],
+			[
+				"FindBatt",
+				"findBattlesDB"
+			],
+			[
+				"Jen",
+				"JenkinsRoot"
+			],
+			[
+				"inGZ",
+				"inGZippedCDNData"
+			],
+			[
+				"butP",
+				"buyProductHelper"
+			],
+			[
+				"Tran",
+				"transactionID"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"exist",
+				"existingStats"
+			],
+			[
+				"inRela",
+				"inRelativeLocalFilePath"
+			],
+			[
+				"string",
+				"stringify"
+			],
+			[
+				"gIndex",
+				"gIndexFilePath"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"uploadF",
+				"uploadFile"
+			],
+			[
+				"inRel",
+				"inRemoteFileName"
+			],
+			[
+				"SetPlatformIOS",
+				"SetPlatformIOS"
+			],
+			[
+				"v",
+				"version"
+			],
+			[
+				"in",
+				"insert"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 942,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1462,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bin/www",
+			"settings":
+			{
+				"buffer_size": 2000,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/api.js",
+			"settings":
+			{
+				"buffer_size": 6915,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 1065 files for \"Checking for heartbeats\"\n\n/Users/josh/Documents/Multiplayer Game Programming/localServerProcessManager/routes/api.js:\n  222  function checkHeartbeats()\n  223  {\n  224: 	console.log( \"Checking for heartbeats...\" );\n  225  	//we probably don't want to remove things from this hash while iterating so...\n  226  	var processesToKill = [];\n  ...\n  248  }\n  249  \n  250: //also start checking for heartbeats!\n  251  setInterval( checkHeartbeats, gHeartbeatCheckPeriodMS );\n  252  \n\n<untitled 1233>:\n  214  function checkHeartbeats()\n  215  {\n  216:     console.log( \"Checking for heartbeats...\" );\n  217      //we probably don't want to remove things from this hash while iterating so...\n  218      var processesToKill = [];\n  ...\n  240  }\n  241  \n  242: //also start checking for heartbeats!\n  243  setInterval( checkHeartbeats, gHeartbeatCheckPeriodMS );\n  244  \n\n4 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 911,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control install",
+				"Package Control: Install Package"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"subli",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"sublime",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packagec",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/josh/Documents/Multiplayer Game Programming/localServerProcessManager",
+		"/Users/josh/Documents/Multiplayer Game Programming/localServerProcessManager/bin",
+		"/Users/josh/Documents/Multiplayer Game Programming/localServerProcessManager/public",
+		"/Users/josh/Documents/Multiplayer Game Programming/localServerProcessManager/public/images",
+		"/Users/josh/Documents/Multiplayer Game Programming/localServerProcessManager/public/javascripts",
+		"/Users/josh/Documents/Multiplayer Game Programming/localServerProcessManager/public/stylesheets",
+		"/Users/josh/Documents/Multiplayer Game Programming/localServerProcessManager/routes",
+		"/Users/josh/Documents/Multiplayer Game Programming/localServerProcessManager/views"
+	],
+	"file_history":
+	[
+		"/Users/josh/Dev/Zeke/static/favicons/manifest.json",
+		"/Users/josh/Dev/Zeke/static/script/reactIndex.js",
+		"/Users/josh/Dev/Zeke/dummy.html",
+		"/Users/josh/Dev/Zeke/static/script/reactProject.js",
+		"/Users/josh/Dev/Zeke/static/project.html",
+		"/Users/josh/Dev/Zeke/static/index.html",
+		"/Users/josh/Dev/Zeke/package.json",
+		"/Users/josh/Dev/Zeke/index.js",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/BuildTools/Editor/ProjMods/Crashlytics.projmods",
+		"/Users/josh/Dev/Zeke/dummy.plist",
+		"/Users/josh/Dev/Zeke/templates/ipaPlistTemplate.xml",
+		"/Users/josh/.profile",
+		"/Users/josh/Dev/ScrapForce/TrainingManager.js",
+		"/Users/josh/Dev/ScrapForce/apncerts/ScrapForceOmegaAPNDevPrivate.pem",
+		"/Users/josh/Dev/ScrapForce/NormalServer.js",
+		"/Users/josh/Dev/ScrapForce/slackUtils.js",
+		"/Users/josh/Dev/ScrapForce/static/admin/partials/UserList.html",
+		"/Users/josh/Dev/ScrapForce/static/admin/partials/UserUpdater.html",
+		"/Users/josh/Dev/ScrapForce/static/admin/partials/UserDetail.html",
+		"/Users/josh/Dev/ScrapForce/static/admin/partials/UserCreation.html",
+		"/Users/josh/Dev/ScrapForce/static/admin/partials/Uploader.html",
+		"/Users/josh/Dev/ScrapForce/apncerts/howToConvertToPEM",
+		"/Users/josh/Dev/ScrapForce/applePush.js",
+		"/Users/josh/Dev/ScrapForce/ProductManager.js",
+		"/Users/josh/Dev/ScrapForce/Admin.js",
+		"/Users/josh/Dev/ScrapForce/static/admin/js/controllers.js",
+		"/Users/josh/Dev/ScrapForce/static/admin/partials/MainMenu.html",
+		"/Users/josh/Dev/ScrapForce/static/admin/partials/MassMailer.html",
+		"/Users/josh/Dev/ScrapForce/ArenaManager.js",
+		"/Users/josh/Dev/ScrapForce/node_modules/apn/lib/connection.js",
+		"/Users/josh/Dev/ScrapForce/AccountManager.js",
+		"/Users/josh/Dev/ScrapForce/LoginServer.js",
+		"/Users/josh/Dev/ScrapForce/MailboxManager.js",
+		"/Users/josh/Dev/ScrapForce/test/testProduct.js",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/BuildToolsConfig/iOSFiles/Scrap_Force_Omega_Distribution.entitlements",
+		"/Users/josh/Dev/ScrapForce/test/testSocial.js",
+		"/Users/josh/Dev/ScrapForce/test/testHarness.js",
+		"/Users/josh/Dev/ScrapForce/test/testTraining.js",
+		"/Users/josh/Dev/ScrapForce/GrabCardSheets.js",
+		"/Users/josh/Dev/ScrapForce/environmentConfig.js",
+		"/Users/josh/Dev/ScrapForce/TestStaticData.txt",
+		"/Users/josh/Dev/ScrapForce/processScheduledEvents.js",
+		"/Users/josh/Dev/ScrapForce/Utils.js",
+		"/Users/josh/Dev/ScrapForce/StaticDataManager.js",
+		"/Users/josh/Dev/ScrapForce/backyardDB.js",
+		"/Users/josh/Dev/ScrapForce/Uploader.js",
+		"/Users/josh/Dev/ScrapForce/Grabber.js",
+		"/Users/josh/Dev/ScrapForce/RawData/LastGrab.txt",
+		"/Users/josh/Dev/ScrapForce/UploadStaticData.js",
+		"/Users/josh/Dev/ScrapForce/RawData/Achievements.txt",
+		"/Users/josh/Dev/ScrapForce/CardUtils.js",
+		"/Users/josh/Dev/ScrapForce/DailyRewardManager.js",
+		"/Users/josh/Dev/ScrapForce/RawData/TestStaticData.txt",
+		"/Users/josh/Dev/ScrapForce/DeckManager.js",
+		"/Users/josh/Dev/ScrapForce/test/testMigration.js",
+		"/Users/josh/Dev/ScrapForce/server.js",
+		"/Users/josh/Dev/ScrapForce/IAPManager.js",
+		"/Users/josh/Dev/ScrapForce/tsvUtils.js",
+		"/Users/josh/Dev/ScrapForce/RawData/StaticDataDump.txt",
+		"/Users/josh/Dev/ScrapForce/DBUtils.js",
+		"/Users/josh/Dev/ScrapForce/test/testUtils.js",
+		"/Users/josh/Dev/ScrapForce/UpdateToInstancedCards.js",
+		"/Users/josh/Dev/ScrapForce/SendTurnEmails.js",
+		"/Users/josh/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/josh/Dev/FolderUploader/sortphotos.js",
+		"/Users/josh/Dev/ScrapForce/test/testFacebook.js",
+		"/Users/josh/Dev/ScrapForce/test/testLogin.js",
+		"/Users/josh/.ssh/known_hosts",
+		"/private/var/folders/76/b4cg6twn11g24vw2g1g30jy80000gn/T/AppFileImportTemplates/AppMassImportTemplate.txt",
+		"/Users/josh/Dev/ScrapForce/adminChecker.js",
+		"/Users/josh/Dev/ScrapForce/userAndVersionChecker.js",
+		"/Users/josh/Dev/ScrapForce/paranoia.js",
+		"/Users/josh/Dev/ScrapForce/MissionUtils.js",
+		"/Users/josh/Dev/ScrapForce/static/admin/login.html",
+		"/Users/josh/Dev/ScrapForce/MissionManager.js",
+		"/Users/josh/Documents/ITP 485/2015 Spring/quizzes and tests/notes on midterm",
+		"/Users/josh/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/6F889169-EB56-4528-8B48-9CC1C6175C11/App4_2.hlsl",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/ScrapForce.sublime-project",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Plugins/StoreKit/StoreKitBinding.cs",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Scripts/Util/NSEIOSUtils.cs",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Scripts/UI/Clubhouse/HomeScreen.cs",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Scripts/IAP/IAPManagerApple.cs",
+		"/Users/josh/Desktop/itp485-ShaderDebugger.txt",
+		"/Users/josh/Dev/Unity/Current/MaxAxe/MaxAxe/Assets/Plugins/iOS/NSEUtils.m",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Scripts/BackendFacade/BackendFacade.cs",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Scripts/Social/NSEGameCenterManager.cs",
+		"/Users/josh/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/0C0AE51D-A7CD-4527-BFF8-1E5339F3E7B1/App3_3.hlsl",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Plugins/Android.meta",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Plugins/Android/AndroidManifest.xml",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/BuildTools/Editor/AndroidPlatformBuilder.cs",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Plugins/Android/AndroidManifest.xml.meta",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Plugins/Android/ChartboostSDK/AndroidManifest.xml",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/BuildTools/Editor/AndroidPlatformBuilder.cs.meta",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/BuildToolsConfig/BaseManifests/AndroidManifestChinaStore.xml",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Plugins/Android/ChartboostSDK/AndroidManifest.xml.meta",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/BuildToolsConfig/BaseManifests/AndroidManifestAmazonAppStore.xml",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/BuildToolsConfig/BaseManifests/AndroidManifestBemobiAppStore.xml",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/BuildToolsConfig/BaseManifests/AndroidManifestChinaStore.xml.meta",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Environment/PanDownEnvironments.meta",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Particles/AlienFX/Alien_DeathNode.prefab",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assembly-CSharp.csproj",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Bio.prefab",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/BossAnimController.cs",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Particles/ToonParticles/Kid Effects/BowArrowNode.prefab",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/MenuMusic.prefab",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/MoveAnim.anim",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/UI/Textures/MaxedOutText.psd.meta",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/UI/Missions/Stickers/ArcadeMachine-MaxAxe.psd.meta",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Plugins/NSE.meta",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/UI/BattleUI/NotSupported.prefab",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/NGUI.meta",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/ScrapForce-csharp.sln",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Scripts/BackendFacade.meta",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Environment/Backdrop Assets.meta",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Resources/CheatManager.asset",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/UI/ClubHouse Atlas.mat",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Library/assetDatabase3",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Particles/AlienFX/AlienDroneMissileNode.prefab",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/UI/HUD Icons/Materials/Conceal HUD icon.mat",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Particles/AlienFX/Animations/AlienDroneMissileNode.controller",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/UI/BattleUI.meta",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/UI/Prefabs/Build Notes Module.prefab",
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Scripts/BackendDataManagers/BundleReference.cs",
+		"/Users/josh/Dev/BackyardBattlesServer/UploadStaticData.js",
+		"/Users/josh/Dev/BackyardBattlesServer/Admin.js",
+		"/Users/josh/Dev/BackyardBattlesServer/Uploader.js",
+		"/Users/josh/Dev/BackyardBattlesServer/static/admin/partials/Uploader.html",
+		"/Users/josh/Dev/BackyardBattlesServer/static/admin/js/controllers.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"	",
+			"sendHeartbeat",
+			"sendhea",
+			"sendHeartbeat",
+			"Checking for heartbeats",
+			"gListenPort",
+			"to boot",
+			"curl",
+			"debug",
+			"normalizePort",
+			"gSendHeartbeatInterval",
+			"	",
+			"gSendHeartbeatInterval",
+			"heartbeat",
+			"request",
+			"gSendHeartbeatInterval",
+			"shutting",
+			"eMachineState",
+			"gSequenceIndex",
+			"gSe",
+			"	",
+			"getMachineState",
+			"params",
+			"	",
+			"curl",
+			"	",
+			"removeProcess",
+			"makeReturnableProcess",
+			"removeprocess",
+			"max",
+			"processId",
+			"uuid",
+			"killProcess",
+			"gProcesses",
+			"handleBuildAndSubmit",
+			"build and",
+			"Zeke",
+			"console.log",
+			"?ver=1.0",
+			"'>\n",
+			"favicons/",
+			"AddProject",
+			"setstate",
+			"handlebuildandsu",
+			"handleBuildAndSubmit",
+			"onClick=",
+			"handleBuildAndSubmit",
+			"delete",
+			"exec",
+			"zeke_port",
+			"BuildElement",
+			"deleteBuildREST",
+			"postbuilds",
+			"addbuildre",
+			"getBuildsREST",
+			"getProjectPageREST",
+			"getBuildsREST",
+			"getProjectsREST",
+			"addBuild",
+			"testUpload",
+			"paramString",
+			"getipa",
+			"getIPAREST",
+			"port",
+			"ipa",
+			"getting plist",
+			"getipa",
+			"getPList",
+			"getPListREST",
+			"getplist",
+			"getbuilds",
+			"sort",
+			"revision",
+			"addbu",
+			"msgmsg",
+			"msg",
+			"addProjectREST",
+			"addproject\naddproject",
+			"addBuild",
+			"app.use",
+			"8443",
+			"project",
+			"addProjectREST",
+			"addbuild",
+			"addbuilt",
+			"gameName",
+			"host",
+			"getUTCSecondsSince1970",
+			"projectprojectI",
+			"project",
+			"projects",
+			"projectId",
+			"project",
+			"%",
+			"__dirname",
+			"getbuilds",
+			"globals",
+			"insertbu",
+			"getdup",
+			"getCollection",
+			"getVersionedCollection",
+			"updateCollectionFromTextFile",
+			"doublelog",
+			"Downloaded ",
+			"getDuplicateDataInfo",
+			"dupes",
+			"getDuplicateDataInfo",
+			"no duplicates",
+			"uniquefield",
+			"throw",
+			"uniquefields",
+			"type(",
+			"uniquefields",
+			"unique",
+			"unqieu",
+			"UniqueColumns",
+			"uniqueColumns",
+			"updatecollectionfromte",
+			"updateCollectionFromJSONFile",
+			"uniquecolu",
+			"generateFunctionToUploadGenericFile",
+			"gGenericFilesToUpload",
+			"locali",
+			"dummy",
+			"getPlayerDeckDB",
+			"getser",
+			"uiJsonEditor",
+			".sendMessage"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"    ",
+			"inUser",
+			".sendParanoid(",
+			"",
+			"jsonMW, formMW",
+			"    ",
+			"read"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 942,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								364,
+								364
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1462,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								783,
+								784
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 104.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bin/www",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2000,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								584,
+								584
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 124.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "routes/api.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2628,
+								2628
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1980.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 911,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										209,
+										232
+									],
+									[
+										404,
+										427
+									],
+									[
+										587,
+										610
+									],
+									[
+										788,
+										811
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								219,
+								219
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Users/josh/Documents/Multiplayer Game Programming/localServerProcessManager",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "localServerProcessManager.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"api",
+				"routes/api.js"
+			],
+			[
+				"www",
+				"bin/www"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"proc",
+				"routes/processes.js"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"package.",
+				"package.json"
+			],
+			[
+				"index.",
+				"index.js"
+			],
+			[
+				"apirou",
+				"routes/apiRoute.js"
+			],
+			[
+				"index.js",
+				"index.js"
+			],
+			[
+				"dummy.pli",
+				"dummy.plist"
+			],
+			[
+				"",
+				"static/script/reactProject.js"
+			],
+			[
+				"reactpor",
+				"static/script/reactProject.js"
+			],
+			[
+				"ndex.js",
+				"index.js"
+			],
+			[
+				"control",
+				"static/admin/js/controllers.js"
+			],
+			[
+				"uploa",
+				"Uploader.js"
+			],
+			[
+				"train",
+				"TrainingManager.js"
+			],
+			[
+				"arenama",
+				"ArenaManager.js"
+			],
+			[
+				"arenam",
+				"ArenaManager.js"
+			],
+			[
+				"mainmenu",
+				"static/admin/partials/MainMenu.html"
+			],
+			[
+				"slack",
+				"slackUtils.js"
+			],
+			[
+				"mainme",
+				"static/admin/partials/MainMenu.html"
+			],
+			[
+				"admin",
+				"Admin.js"
+			],
+			[
+				"admin.js",
+				"Admin.js"
+			],
+			[
+				"normals",
+				"NormalServer.js"
+			],
+			[
+				"accoun",
+				"AccountManager.js"
+			],
+			[
+				"testpr",
+				"test/testProduct.js"
+			],
+			[
+				"produ",
+				"ProductManager.js"
+			],
+			[
+				"testpro",
+				"test/testProduct.js"
+			],
+			[
+				"productma",
+				"ProductManager.js"
+			],
+			[
+				"grabcardshe",
+				"GrabCardSheets.js"
+			],
+			[
+				"testtr",
+				"test/testTraining.js"
+			],
+			[
+				"testproduct",
+				"test/testProduct.js"
+			],
+			[
+				"productm",
+				"ProductManager.js"
+			],
+			[
+				"productmanager",
+				"ProductManager.js"
+			],
+			[
+				"testha",
+				"test/testHarness.js"
+			],
+			[
+				"testprod",
+				"test/testProduct.js"
+			],
+			[
+				"upload",
+				"Uploader.js"
+			],
+			[
+				"uploadsta",
+				"UploadStaticData.js"
+			],
+			[
+				"uploader",
+				"Uploader.js"
+			],
+			[
+				"teststa",
+				"TestStaticData.txt"
+			],
+			[
+				"logins",
+				"LoginServer.js"
+			],
+			[
+				"normal",
+				"NormalServer.js"
+			],
+			[
+				"testh",
+				"test/testHarness.js"
+			],
+			[
+				"uplo",
+				"UploadStaticData.js"
+			],
+			[
+				"lastgra",
+				"RawData/LastGrab.txt"
+			],
+			[
+				"uploadst",
+				"UploadStaticData.js"
+			],
+			[
+				"grabber",
+				"Grabber.js"
+			],
+			[
+				"grabcar",
+				"GrabCardSheets.js"
+			],
+			[
+				"cardutils",
+				"CardUtils.js"
+			],
+			[
+				"trainingm",
+				"TrainingManager.js"
+			],
+			[
+				"trainingman",
+				"TrainingManager.js"
+			],
+			[
+				"testtra",
+				"test/testTraining.js"
+			],
+			[
+				"testt",
+				"test/testTraining.js"
+			],
+			[
+				"trainingma",
+				"TrainingManager.js"
+			],
+			[
+				"cardu",
+				"CardUtils.js"
+			],
+			[
+				"trainingmanager",
+				"TrainingManager.js"
+			],
+			[
+				"cardut",
+				"CardUtils.js"
+			],
+			[
+				"training",
+				"TrainingManager.js"
+			],
+			[
+				"testtraining",
+				"test/testTraining.js"
+			],
+			[
+				"utils",
+				"Utils.js"
+			],
+			[
+				"cardutil",
+				"CardUtils.js"
+			],
+			[
+				"util",
+				"Utils.js"
+			],
+			[
+				"backyard",
+				"backyardDB.js"
+			],
+			[
+				"testharn",
+				"test/testHarness.js"
+			],
+			[
+				"testtrai",
+				"test/testTraining.js"
+			],
+			[
+				"testhar",
+				"test/testHarness.js"
+			],
+			[
+				"instancecard",
+				"UpdateToInstancedCards.js"
+			],
+			[
+				"trainin",
+				"TrainingManager.js"
+			],
+			[
+				"static",
+				"RawData/StaticDataDump.txt"
+			],
+			[
+				"dbut",
+				"DBUtils.js"
+			],
+			[
+				"staticdump",
+				"RawData/StaticDataDump.txt"
+			],
+			[
+				"backyar",
+				"backyardDB.js"
+			],
+			[
+				"test",
+				"test/testTraining.js"
+			],
+			[
+				"nor",
+				"NormalServer.js"
+			],
+			[
+				"server.js",
+				"server.js"
+			],
+			[
+				"normalss",
+				"NormalServer.js"
+			],
+			[
+				"missionutils",
+				"MissionUtils.js"
+			],
+			[
+				"tsvu",
+				"tsvUtils.js"
+			],
+			[
+				"iap",
+				"IAPManager.js"
+			],
+			[
+				"product",
+				"ProductManager.js"
+			],
+			[
+				"slackutils",
+				"slackUtils.js"
+			],
+			[
+				"loginht",
+				"static/admin/login.html"
+			],
+			[
+				"normalser",
+				"NormalServer.js"
+			],
+			[
+				"adminch",
+				"adminChecker.js"
+			],
+			[
+				"paranoi",
+				"paranoia.js"
+			],
+			[
+				"para",
+				"paranoia.js"
+			],
+			[
+				"adminchecker",
+				"adminChecker.js"
+			],
+			[
+				"prod",
+				"ProductManager.js"
+			],
+			[
+				"adminchec",
+				"adminChecker.js"
+			],
+			[
+				"userand",
+				"userAndVersionChecker.js"
+			],
+			[
+				"backyardd",
+				"backyardDB.js"
+			],
+			[
+				"server",
+				"server.js"
+			],
+			[
+				"paran",
+				"paranoia.js"
+			],
+			[
+				"homesc",
+				"Assets/Scripts/UI/Clubhouse/HomeScreen.cs"
+			],
+			[
+				"nseutil",
+				"Assets/Scripts/Util/NSEIOSUtils.cs"
+			],
+			[
+				"iapm",
+				"Assets/Scripts/IAP/IAPManagerApple.cs"
+			],
+			[
+				"backendfa",
+				"Assets/Scripts/BackendFacade/BackendFacade.cs"
+			],
+			[
+				"uploads",
+				"UploadStaticData.js"
+			],
+			[
+				"processsh",
+				"processScheduledEvents.js"
+			],
+			[
+				"uploadstat",
+				"UploadStaticData.js"
+			],
+			[
+				"backyarddb",
+				"backyardDB.js"
+			],
+			[
+				"userandver",
+				"userAndVersionChecker.js"
+			],
+			[
+				"accountman",
+				"AccountManager.js"
+			],
+			[
+				"server.",
+				"server.js"
+			],
+			[
+				"staticdata",
+				"StaticDataManager.js"
+			],
+			[
+				"staticdatadu",
+				"RawData/StaticDataDump.txt"
+			],
+			[
+				"multipl",
+				"RawData/MultiplayerNames.txt"
+			],
+			[
+				"grab",
+				"Grabber.js"
+			],
+			[
+				"accountm",
+				"AccountManager.js"
+			],
+			[
+				"playerleve",
+				"RawData/PlayerLevels.txt"
+			],
+			[
+				"schedule",
+				"ScheduledEventManager.js"
+			],
+			[
+				"grabb",
+				"Grabber.js"
+			],
+			[
+				"grabst",
+				"GrabCardSheets.js"
+			],
+			[
+				"path",
+				"patchnotes.txt"
+			],
+			[
+				"package.json",
+				"package.json"
+			],
+			[
+				"accountma",
+				"AccountManager.js"
+			],
+			[
+				"arenaman",
+				"ArenaManager.js"
+			],
+			[
+				"missionma",
+				"MissionManager.js"
+			],
+			[
+				"userde",
+				"static/admin/partials/UserDetail.html"
+			],
+			[
+				"parano",
+				"paranoia.js"
+			],
+			[
+				"mailboxma",
+				"MailboxManager.js"
+			],
+			[
+				"user",
+				"userAndVersionChecker.js"
+			],
+			[
+				"server.j",
+				"server.js"
+			],
+			[
+				"json.js",
+				"node_modules/express/node_modules/connect/lib/middleware/json.js"
+			],
+			[
+				"urlen",
+				"node_modules/express/node_modules/connect/lib/middleware/urlencoded.js"
+			],
+			[
+				"missionm",
+				"MissionManager.js"
+			],
+			[
+				"dailyr",
+				"DailyRewardManager.js"
+			],
+			[
+				"grabspread",
+				"grabSpreadSheets.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Multiplayer Game Programming/virtualMachineManager/virtualMachineManager.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 47.0,
+		"last_filter": "setvmuu",
+		"selected_items":
+		[
+			[
+				"setvmuu",
+				"setVMUUID"
+			],
+			[
+				"getmultiplayer",
+				"getMultiplayerDummyDeck"
+			],
+			[
+				"pushnotif",
+				"pushNotification"
+			],
+			[
+				"buyproductrest",
+				"buyProductREST"
+			],
+			[
+				"sethardcu",
+				"setHardCurrency"
+			],
+			[
+				"buypro",
+				"buyProductREST"
+			],
+			[
+				"cachestaticdata",
+				"cacheStaticDataFromCDN"
+			],
+			[
+				"fetchd",
+				"fetchCDNData"
+			],
+			[
+				"sellscr",
+				"sellScrap"
+			],
+			[
+				"getnextevo",
+				"getNextEvoUUID"
+			],
+			[
+				"getnextrank",
+				"getNextRank"
+			],
+			[
+				"levelUp",
+				"levelUp"
+			],
+			[
+				"giveScrap",
+				"giveScrap"
+			],
+			[
+				"parsespread",
+				"parseSpreadSheetRow"
+			],
+			[
+				"getlevelcap",
+				"getLevelCap"
+			],
+			[
+				"iaptr",
+				"recordIAPTransaction"
+			],
+			[
+				"missio",
+				"endMission"
+			],
+			[
+				"Iden",
+				"IdentificationVerification"
+			],
+			[
+				"Identification",
+				"IdentificationVerification"
+			],
+			[
+				"$$parse",
+				"$$parse"
+			],
+			[
+				"getusersinevent",
+				"getUsersInEvent"
+			],
+			[
+				"totalS",
+				"totalSignUpTime"
+			]
+		],
+		"width": 512.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

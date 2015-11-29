@@ -1,0 +1,14 @@
+//These stats are for the SpaceWar sample, so they
+//don't necessarily all make sense for RoboCat...
+//Number of games played
+STAT(NumGames,INT)
+//We'll use this to be # of units killed
+STAT(NumWins,INT)
+//We'll use this to be # of units lost
+STAT(NumLosses,INT)
+//Number of feet traveled
+STAT(FeetTraveled,FLOAT)
+//Maximal feet traveled
+STAT(MaxFeetTraveled,FLOAT)
+//Average speed
+STAT(AverageSpeed,AVGRATE)

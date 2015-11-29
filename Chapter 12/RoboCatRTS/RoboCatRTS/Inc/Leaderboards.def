@@ -1,0 +1,6 @@
+//2nd parameter should be None, Ascending, or Descending
+//3rd parameter should be None, Numeric, TimeSeconds, or TimeMilliSeconds
+//Track the kill counts
+BOARD(KillCount,Descending,Numeric)
+//Track the number of our units that are dead
+BOARD(LostCount,Ascending,Numeric)

@@ -1,28 +1,5 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+Chapter 3/build
+Chapter 4/build
+Chapter 6/RoboCatAction/build
+Chapter 6/RoboCatRTS/build
+Chapter 8/RoboCatAction/build
