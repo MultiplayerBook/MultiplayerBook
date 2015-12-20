@@ -5,6 +5,10 @@ Multiplayer Book
 Welcome to the code repository for Multiplayer Game Programming: Architecting Networked Games.
 Here you will find all the code samples to accompany the code from the book.
 
+Supported Platforms
+------------
+The code has been tested and runs on Windows with Visual Studio 2013, and on Mac OS X with Xcode 7. Other platforms (including Linux) are currently not supported.
+
 Installation
 ------------
 
