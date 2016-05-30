@@ -112,7 +112,6 @@
 				9202F9291BFFE0DF00C30060 /* Sources */,
 				9202F92A1BFFE0DF00C30060 /* Frameworks */,
 				9202F92B1BFFE0DF00C30060 /* CopyFiles */,
-				923CDE321BFFEF8400802F90 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -152,22 +151,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		923CDE321BFFEF8400802F90 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ -d \"$BUILD_DIR/Debug\" ]; then\n    cp \"$SRCROOT/SDL/lib/mac/\"*.dylib \"$BUILD_DIR/Debug\"\n    cp -R \"$SRCROOT/Assets\" \"$BUILD_DIR\"\n    install_name_tool -change /usr/local/lib/libSDL2_ttf-2.0.0.dylib @executable_path/libSDL2_ttf-2.0.0.dylib \"$BUILD_DIR/Debug/$PRODUCT_NAME\"\n    install_name_tool -change /usr/local/lib/libSDL2-2.0.0.dylib @executable_path/libSDL2-2.0.0.dylib \"$BUILD_DIR/Debug/$PRODUCT_NAME\"\n    install_name_tool -change /usr/local/lib/libSDL2_image-2.0.0.dylib @executable_path/libSDL2_image-2.0.0.dylib \"$BUILD_DIR/Debug/$PRODUCT_NAME\"\n    install_name_tool -change /usr/local/lib/libfreetype.6.dylib @executable_path/libfreetype.6.dylib \"$BUILD_DIR/Debug/$PRODUCT_NAME\"\n    install_name_tool -change /usr/local/lib/libpng16.16.dylib @executable_path/libpng16.16.dylib \"$BUILD_DIR/Debug/$PRODUCT_NAME\"\nfi\n                                     \nif [ -d \"$BUILD_DIR/Release\" ]; then\n    cp \"$SRCROOT/SDL/lib/mac/\"*.dylib \"$BUILD_DIR/Release\"\n    cp -R \"$SRCROOT/Assets\" \"$BUILD_DIR\"\n    install_name_tool -change /usr/local/lib/libSDL2_ttf-2.0.0.dylib @executable_path/libSDL2_ttf-2.0.0.dylib \"$BUILD_DIR/Release/$PRODUCT_NAME\"\n    install_name_tool -change /usr/local/lib/libSDL2-2.0.0.dylib @executable_path/libSDL2-2.0.0.dylib \"$BUILD_DIR/Release/$PRODUCT_NAME\"\n    install_name_tool -change /usr/local/lib/libSDL2_image-2.0.0.dylib @executable_path/libSDL2_image-2.0.0.dylib \"$BUILD_DIR/Release/$PRODUCT_NAME\"\n    install_name_tool -change /usr/local/lib/libfreetype.6.dylib @executable_path/libfreetype.6.dylib \"$BUILD_DIR/Release/$PRODUCT_NAME\"\n    install_name_tool -change /usr/local/lib/libpng16.16.dylib @executable_path/libpng16.16.dylib \"$BUILD_DIR/Release/$PRODUCT_NAME\"\nfi";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9202F9291BFFE0DF00C30060 /* Sources */ = {
