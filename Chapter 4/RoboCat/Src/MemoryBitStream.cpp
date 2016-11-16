@@ -158,9 +158,9 @@ void InputMemoryBitStream::Read( Quaternion& outQuat )
 	outQuat.mZ = ConvertFromFixed( f, -1.f, precision );
 	
 	outQuat.mW = sqrtf( 1.f -
-					   outQuat.mX * outQuat.mX +
-					   outQuat.mY * outQuat.mY +
-					   outQuat.mZ * outQuat.mZ );
+					   (outQuat.mX * outQuat.mX +
+					    outQuat.mY * outQuat.mY +
+					    outQuat.mZ * outQuat.mZ));
 	bool isNegative;
 	Read( isNegative );
 	
