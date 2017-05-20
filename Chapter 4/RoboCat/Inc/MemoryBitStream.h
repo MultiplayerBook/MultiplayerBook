@@ -97,7 +97,7 @@ public:
 	mIsBufferOwner( true )
 	{
 		//allocate buffer of right size
-		int byteCount = mBitCapacity / 8;
+		int byteCount = ( mBitCapacity + 7 ) / 8;
 		mBuffer = static_cast< char* >( malloc( byteCount ) );
 		//copy
 		memcpy( mBuffer, inOther.mBuffer, byteCount );
