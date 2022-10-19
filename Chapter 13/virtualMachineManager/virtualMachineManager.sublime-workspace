@@ -180,14 +180,6 @@
 			}
 		},
 		{
-			"file": "node_modules/express/index.js",
-			"settings":
-			{
-				"buffer_size": 224,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "routes/index.js",
 			"settings":
 			{
@@ -199,9 +191,12 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 961,
-				"line_ending": "Unix"
-			}
+				"buffer_size": 917,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+			]
 		}
 	],
 	"build_system": "",
@@ -269,17 +264,9 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/bin",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/node_modules",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/node_modules/async",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/node_modules/async/lib",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/node_modules/cookie-parser",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/node_modules/debug",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/node_modules/ejs",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/node_modules/express",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/node_modules/morgan",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/routes"
+		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager",
+		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager/routes",
+		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager/views"
 	],
 	"file_history":
 	[
@@ -414,7 +401,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -429,11 +416,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"	",
+			"\t",
 			"lastseq",
 			"getf",
 			"updateVMState",
-			"	",
+			"\t",
 			"gPartialVMs",
 			"vms",
 			"console.log",
@@ -460,9 +447,9 @@
 			"uuid",
 			"gAvailableVMs",
 			"availableVM",
-			"	",
+			"\t",
 			"curl",
-			"	",
+			"\t",
 			"removeProcess",
 			"makeReturnableProcess",
 			"removeprocess",
@@ -573,15 +560,16 @@
 			"read"
 		],
 		"reverse": false,
+		"scrollbar_highlights": true,
 		"show_context": true,
 		"use_buffer2": true,
+		"use_gitignore": true,
 		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 4,
 			"sheets":
 			[
 				{
@@ -611,7 +599,8 @@
 						"translation.y": 95.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
+					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
@@ -641,7 +630,8 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
+					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
@@ -670,7 +660,8 @@
 						"translation.y": 5770.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
+					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
@@ -699,40 +690,14 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
+					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "node_modules/express/index.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 224,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "routes/index.js",
+					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
@@ -750,30 +715,33 @@
 						"settings":
 						{
 							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
+					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 961,
+						"buffer_size": 917,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								338,
-								359
+								301,
+								301
 							]
 						],
 						"settings":
@@ -786,7 +754,8 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
+					"stack_multiselect": false,
 					"type": "text"
 				}
 			]
@@ -794,7 +763,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -839,7 +808,7 @@
 	"project": "virtualMachineManager.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
