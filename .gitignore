@@ -39,9 +39,13 @@ Chapter 8/RoboCatAction/RoboCat/Bin
 Chapter 8/RoboCatAction/RoboCat/Debug
 Chapter 8/RoboCatAction/RoboCat/Release
 Chapter 8/RoboCatAction/build
+Chapter 8/RoboCatAction/x64/
+Chapter 8/RoboCatAction/RoboCat/x64/
 Chapter 8/RoboCatAction/ipch
 Chapter 8/RoboCatAction/RoboCatClient/Bin
 Chapter 8/RoboCatAction/RoboCatServer/Bin
+Chapter 8/RoboCatAction/RoboCatClient/x64
+Chapter 8/RoboCatAction/RoboCatServer/x64
 Chapter 8/RoboCatAction/RoboCatClient/Debug
 Chapter 8/RoboCatAction/RoboCatServer/Debug
 Chapter 8/RoboCatAction/RoboCatClient/Release/
@@ -51,4 +55,9 @@ Chapter 12/RoboCatRTS/Debug
 Chapter 12/RoboCatRTS/RoboCatRTS/Debug/
 Chapter 12/RoboCatRTS/RoboCatRTS/Release/
 
+Chapter 13/localServerProcessManager/node_modules/
+Chapter 13/localServerProcessManager/bin/
+Chapter 13/virtualMachineManager/bin/
+Chapter 13/virtualMachineManager/node_modules/
+PPTs
 .DS_Store

@@ -148,55 +148,12 @@
 	"buffers":
 	[
 		{
-			"file": "app.js",
-			"settings":
-			{
-				"buffer_size": 1455,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "bin/www",
-			"settings":
-			{
-				"buffer_size": 1638,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes/api.js",
-			"settings":
-			{
-				"buffer_size": 8576,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "host or not\ncomplexity, cost, dependence, loss of ownership\nreliability, high bandwidth, cheat prevention, copy protection\n\nREST, JSON, NodeJS\n\nServer Game Instance, Game Server Process, Game Machine, on physical hardware",
-			"settings":
-			{
-				"buffer_size": 221,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "routes/index.js",
 			"settings":
 			{
 				"buffer_size": 205,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 917,
 				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-			]
+			}
 		}
 	],
 	"build_system": "",
@@ -270,6 +227,11 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager/app.js",
+		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager/bin/www",
+		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager/routes/api.js",
+		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager/package.json",
+		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager/routes/index.js",
 		"/Users/josh/Dev/Zeke/static/favicons/manifest.json",
 		"/Users/josh/Dev/Zeke/static/script/reactIndex.js",
 		"/Users/josh/Dev/Zeke/dummy.html",
@@ -392,12 +354,7 @@
 		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Particles/AlienFX/Animations/AlienDroneMissileNode.controller",
 		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/UI/BattleUI.meta",
 		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/UI/Prefabs/Build Notes Module.prefab",
-		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Scripts/BackendDataManagers/BundleReference.cs",
-		"/Users/josh/Dev/BackyardBattlesServer/UploadStaticData.js",
-		"/Users/josh/Dev/BackyardBattlesServer/Admin.js",
-		"/Users/josh/Dev/BackyardBattlesServer/Uploader.js",
-		"/Users/josh/Dev/BackyardBattlesServer/static/admin/partials/Uploader.html",
-		"/Users/josh/Dev/BackyardBattlesServer/static/admin/js/controllers.js"
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Scripts/BackendDataManagers/BundleReference.cs"
 	],
 	"find":
 	{
@@ -574,131 +531,9 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1455,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								911,
-								912
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 95.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "bin/www",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1638,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								238,
-								238
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "routes/api.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8576,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5391,
-								8473
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5770.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 221,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								221,
-								221
-							]
-						],
-						"settings":
-						{
-							"default_dir": "/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "routes/index.js",
 					"selected": true,
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
 						"buffer_size": 205,
@@ -714,8 +549,7 @@
 						],
 						"settings":
 						{
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -724,37 +558,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 917,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								301,
-								301
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"stack_multiselect": false,
 					"type": "text"
 				}
