@@ -11,6 +11,11 @@
 *.sln.docstates
 *.sdf
 *.obj
+*.tlog
+*.exe
+*.pdb
+*.iobj
+*.log
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -19,8 +24,12 @@
 
 */build/
 */Debug/
+*/Debug
+*/Debug/*
 *.vs/
 */Release/
+*/Release/*
+*/Release
 
 Chapter 13/localServerProcessManager/node_modules/
 Chapter 13/localServerProcessManager/bin/
