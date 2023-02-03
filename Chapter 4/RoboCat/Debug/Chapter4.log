@@ -1,0 +1,16 @@
+﻿  RoboCatPCH.cpp
+c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 4\robocat\inc\memorystream.h(33): warning C4127: conditional expression is constant
+  c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 4\robocat\inc\memorystream.h(33): note: consider using 'if constexpr' statement instead
+  c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 4\robocat\inc\memorystream.h(48): note: see reference to function template instantiation 'void OutputMemoryStream::Write<size_t>(T)' being compiled
+          with
+          [
+              T=size_t
+          ]
+  Main.cpp
+c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 4\robocat\src\main.cpp(5): warning C4100: 'nCmdShow': unreferenced formal parameter
+c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 4\robocat\src\main.cpp(5): warning C4100: 'hInstance': unreferenced formal parameter
+  MemoryBitStream.cpp
+  MemoryStream.cpp
+  Generating Code...
+Main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  Chapter4.vcxproj -> C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 4\RoboCat\Bin\Debug\Chapter4.exe

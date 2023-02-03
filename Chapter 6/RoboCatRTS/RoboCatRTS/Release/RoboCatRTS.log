@@ -1,0 +1,48 @@
+﻿  GraphicsDriver.cpp
+  HUD.cpp
+  InputManager.cpp
+  Main.cpp
+  RandGen.cpp
+  RenderManager.cpp
+  SpriteComponent.cpp
+  Texture.cpp
+  TextureManager.cpp
+  TurnData.cpp
+  WindowManager.cpp
+  Yarn.cpp
+  Engine.cpp
+  GameObjectRegistry.cpp
+  MemoryBitStream.cpp
+  Command.cpp
+  CommandList.cpp
+  NetworkManager.cpp
+  RoboMath.cpp
+  ScoreBoardManager.cpp
+  Compiling...
+  RoboCat.cpp
+  SocketAddress.cpp
+  SocketAddressFactory.cpp
+  SocketUtil.cpp
+  StringUtils.cpp
+  TCPSocket.cpp
+  Timing.cpp
+  GameObject.cpp
+  RoboCatPCH.cpp
+  UDPSocket.cpp
+  World.cpp
+  Generating code
+  All 3034 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  RoboCatRTS.vcxproj -> C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatRTS\Release\RoboCatRTS.exe
+  Copying SDL DLLs...
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatRTS\RoboCatRTS\\..\SDL\lib\win\x86\libfreetype-6.dll
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatRTS\RoboCatRTS\\..\SDL\lib\win\x86\libogg-0.dll
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatRTS\RoboCatRTS\\..\SDL\lib\win\x86\libpng16-16.dll
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatRTS\RoboCatRTS\\..\SDL\lib\win\x86\libvorbis-0.dll
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatRTS\RoboCatRTS\\..\SDL\lib\win\x86\libvorbisfile-3.dll
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatRTS\RoboCatRTS\\..\SDL\lib\win\x86\SDL2.dll
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatRTS\RoboCatRTS\\..\SDL\lib\win\x86\SDL2_image.dll
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatRTS\RoboCatRTS\\..\SDL\lib\win\x86\SDL2_mixer.dll
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatRTS\RoboCatRTS\\..\SDL\lib\win\x86\SDL2_ttf.dll
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatRTS\RoboCatRTS\\..\SDL\lib\win\x86\zlib1.dll
+  10 File(s) copied
