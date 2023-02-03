@@ -1,0 +1,87 @@
+﻿Build started 19/10/2022 18:38:18.
+     1>Project "C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCat\RoboCat.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\DirectXTK\inc /IInc /I..\ /Zi /nologo /W4 /WX- /Od /Oi /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /openmp- /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt  Src\AckRange.cpp Src\Yarn.cpp Src\DeliveryNotificationManager.cpp Src\Engine.cpp Src\GameObjectRegistry.cpp Src\InFlightPacket.cpp Src\InputState.cpp Src\MemoryBitStream.cpp Src\Move.cpp Src\MoveList.cpp Src\NetworkManager.cpp Src\RoboMath.cpp Src\ScoreBoardManager.cpp Src\RoboCat.cpp Src\SocketAddress.cpp Src\SocketAddressFactory.cpp Src\SocketUtil.cpp Src\StringUtils.cpp Src\TCPSocket.cpp Src\Timing.cpp Src\GameObject.cpp Src\Mouse.cpp Src\RoboCatPCH.cpp Src\UDPSocket.cpp Src\World.cpp
+         AckRange.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         Yarn.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         DeliveryNotificationManager.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         Engine.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         GameObjectRegistry.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         InFlightPacket.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         InputState.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         MemoryBitStream.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         Move.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         MoveList.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         NetworkManager.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         RoboMath.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         ScoreBoardManager.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         RoboCat.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         SocketAddress.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         SocketAddressFactory.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         SocketUtil.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         StringUtils.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         TCPSocket.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         Timing.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         Generating Code...
+         Compiling...
+         GameObject.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         Mouse.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         RoboCatPCH.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         UDPSocket.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         World.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\MoveList.h(23): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\Engine.h(1): fatal error C1083: Cannot open include file: 'SDL_events.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCat\RoboCat.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:14.93

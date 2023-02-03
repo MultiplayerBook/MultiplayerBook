@@ -1,0 +1,15 @@
+﻿  Main.cpp
+c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 3\robocat\src\main.cpp(5): warning C4100: 'nCmdShow': unreferenced formal parameter
+c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 3\robocat\src\main.cpp(5): warning C4100: 'hInstance': unreferenced formal parameter
+  SocketAddress.cpp
+  SocketAddressFactory.cpp
+  SocketUtil.cpp
+c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 3\robocat\src\socketutil.cpp(90): warning C4100: 'ioNaxNfds': unreferenced formal parameter
+  StringUtils.cpp
+  TCPSocket.cpp
+  RoboCatPCH.cpp
+  UDPSocket.cpp
+  Generating code
+  All 9 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Chapter3.vcxproj -> C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 3\Release\Chapter3.exe

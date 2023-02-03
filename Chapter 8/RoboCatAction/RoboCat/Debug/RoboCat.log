@@ -1,0 +1,66 @@
+﻿Build started 19/10/2022 18:47:34.
+     1>Project "C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCat\RoboCat.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\SDL\include /IInc /I..\ /ZI /nologo /W4 /WX- /Od /Oi /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /openmp- /Yc"RoboCatPCH.h" /Fp"Debug\RoboCat.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  Src\RoboCatPCH.cpp
+         RoboCatPCH.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\SDL\include /IInc /I..\ /ZI /nologo /W4 /WX- /Od /Oi /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /openmp- /Yu"RoboCatPCH.h" /Fp"Debug\RoboCat.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  Src\AckRange.cpp Src\Yarn.cpp Src\DeliveryNotificationManager.cpp Src\Engine.cpp Src\GameObjectRegistry.cpp Src\InFlightPacket.cpp Src\InputState.cpp Src\MemoryBitStream.cpp Src\Move.cpp Src\MoveList.cpp Src\NetworkManager.cpp Src\RoboMath.cpp Src\ScoreBoardManager.cpp Src\RoboCat.cpp Src\SocketAddress.cpp Src\SocketAddressFactory.cpp Src\SocketUtil.cpp Src\StringUtils.cpp Src\TCPSocket.cpp Src\Timing.cpp Src\GameObject.cpp Src\Mouse.cpp Src\UDPSocket.cpp Src\World.cpp
+         AckRange.cpp
+         Yarn.cpp
+         DeliveryNotificationManager.cpp
+         Engine.cpp
+         GameObjectRegistry.cpp
+         InFlightPacket.cpp
+         InputState.cpp
+         MemoryBitStream.cpp
+         Move.cpp
+         MoveList.cpp
+         NetworkManager.cpp
+         RoboMath.cpp
+         ScoreBoardManager.cpp
+         RoboCat.cpp
+         SocketAddress.cpp
+         SocketAddressFactory.cpp
+         SocketUtil.cpp
+     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\src\socketutil.cpp(90): warning C4100: 'ioNaxNfds' : unreferenced formal parameter
+         StringUtils.cpp
+         TCPSocket.cpp
+         Timing.cpp
+         Generating Code...
+         Compiling...
+         GameObject.cpp
+         Mouse.cpp
+         UDPSocket.cpp
+         World.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"Bin\Debug\RoboCat.lib" /NOLOGO /MACHINE:X86 Debug\AckRange.obj
+         Debug\Yarn.obj
+         Debug\DeliveryNotificationManager.obj
+         Debug\Engine.obj
+         Debug\GameObjectRegistry.obj
+         Debug\InFlightPacket.obj
+         Debug\InputState.obj
+         Debug\MemoryBitStream.obj
+         Debug\Move.obj
+         Debug\MoveList.obj
+         Debug\NetworkManager.obj
+         Debug\RoboMath.obj
+         Debug\ScoreBoardManager.obj
+         Debug\RoboCat.obj
+         Debug\SocketAddress.obj
+         Debug\SocketAddressFactory.obj
+         Debug\SocketUtil.obj
+         Debug\StringUtils.obj
+         Debug\TCPSocket.obj
+         Debug\Timing.obj
+         Debug\GameObject.obj
+         Debug\Mouse.obj
+         Debug\RoboCatPCH.obj
+         Debug\UDPSocket.obj
+         Debug\World.obj
+         RoboCat.vcxproj -> C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCat\Bin\Debug\RoboCat.lib
+     1>Done Building Project "C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCat\RoboCat.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.12

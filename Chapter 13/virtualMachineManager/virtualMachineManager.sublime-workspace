@@ -147,14 +147,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "routes/index.js",
-			"settings":
-			{
-				"buffer_size": 205,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -227,6 +219,8 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS1S471/Ass1Slack/ready-devteam-one/2022-10-05.json",
+		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS1S471/Ass1Slack/ready-devteam-one/2022-10-01.json",
 		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager/app.js",
 		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager/bin/www",
 		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager/routes/api.js",
@@ -352,9 +346,7 @@
 		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Particles/AlienFX/AlienDroneMissileNode.prefab",
 		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/UI/HUD Icons/Materials/Conceal HUD icon.mat",
 		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Particles/AlienFX/Animations/AlienDroneMissileNode.controller",
-		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/UI/BattleUI.meta",
-		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/UI/Prefabs/Build Notes Module.prefab",
-		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Scripts/BackendDataManagers/BundleReference.cs"
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/UI/BattleUI.meta"
 	],
 	"find":
 	{
@@ -529,38 +521,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "routes/index.js",
-					"selected": true,
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 205,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								205,
-								205
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],

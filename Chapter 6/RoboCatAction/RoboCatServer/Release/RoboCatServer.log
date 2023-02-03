@@ -1,0 +1,25 @@
+﻿  RoboCatServerPCH.cpp
+  YarnServer.cpp
+  ClientProxy.cpp
+  ReplicationManagerServer.cpp
+  Server.cpp
+  ServerMain.cpp
+  NetworkManagerServer.cpp
+  RoboCatServer.cpp
+  MouseServer.cpp
+  Generating code
+  All 2490 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  RoboCatServer.vcxproj -> C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatAction\Release\RoboCatServer.exe
+  Copying SDL DLLs...
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\libfreetype-6.dll
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\libogg-0.dll
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\libpng16-16.dll
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\libvorbis-0.dll
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\libvorbisfile-3.dll
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\SDL2.dll
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\SDL2_image.dll
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\SDL2_mixer.dll
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\SDL2_ttf.dll
+  C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 6\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\zlib1.dll
+  10 File(s) copied
