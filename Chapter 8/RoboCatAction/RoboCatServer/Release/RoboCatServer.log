@@ -1,51 +1,17 @@
-﻿Build started 19/10/2022 18:43:43.
-     1>Project "C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\RoboCatServer.vcxproj" on node 2 (Rebuild target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\SDL\include /IInc /I..\ /I..\RoboCat\Inc /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D CODE_ANALYSIS /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"RoboCatServerPCH.h" /Fp"Release\RoboCatServer.pch.codeanalysis" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze /errorReport:prompt   /analyze:quiet Src\RoboCatServerPCH.cpp
-         RoboCatServerPCH.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\SDL\include /IInc /I..\ /I..\RoboCat\Inc /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D CODE_ANALYSIS /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"RoboCatServerPCH.h" /Fp"Release\RoboCatServer.pch.codeanalysis" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze /errorReport:prompt   /analyze:quiet Src\YarnServer.cpp Src\ClientProxy.cpp Src\ReplicationManagerServer.cpp Src\ReplicationManagerTransmissionData.cpp Src\Server.cpp Src\ServerMain.cpp Src\NetworkManagerServer.cpp Src\RoboCatServer.cpp Src\MouseServer.cpp
-         YarnServer.cpp
-         ClientProxy.cpp
-         ReplicationManagerServer.cpp
-         ReplicationManagerTransmissionData.cpp
-         Server.cpp
-         ServerMain.cpp
-         NetworkManagerServer.cpp
-         RoboCatServer.cpp
-         MouseServer.cpp
-         Running Code Analysis for C/C++...
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\Release\RoboCatServer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\SDL\lib\win\x86 ws2_32.lib SDL2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\Release\RoboCatServer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\Release\RoboCatServer.lib" /MACHINE:X86 /SAFESEH Release\YarnServer.obj
-         Release\ClientProxy.obj
-         Release\ReplicationManagerServer.obj
-         Release\ReplicationManagerTransmissionData.obj
-         Release\Server.obj
-         Release\ServerMain.obj
-         Release\NetworkManagerServer.obj
-         Release\RoboCatServer.obj
-         Release\MouseServer.obj
-         Release\RoboCatServerPCH.obj
-         "C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\Release\RoboCat.lib"
-         Generating code
-         Finished generating code
-         RoboCatServer.vcxproj -> C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\Release\RoboCatServer.exe
-     1>c:\users\mike\onedrive - university of south wales\ame2223\cs2s573\multiplayerbook\chapter 8\robocataction\robocat\inc\memorybitstream.h(104): warning C6387: 'mBuffer' could be '0':  this does not adhere to the specification for the function 'memcpy'. 
-       PostBuildEvent:
-         xcopy "C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\*.dll" "C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\Release\" /i /s /y
-         :VCEnd
-         C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\libfreetype-6.dll
-         C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\libogg-0.dll
-         C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\libpng16-16.dll
-         C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\libvorbis-0.dll
-         C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\libvorbisfile-3.dll
-         C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\SDL2.dll
-         C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\SDL2_image.dll
-         C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\SDL2_mixer.dll
-         C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\SDL2_ttf.dll
-         C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\zlib1.dll
-         10 File(s) copied
-     1>Done Building Project "C:\Users\Mike\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\RoboCatServer.vcxproj" (Rebuild target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:22.54
+﻿  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 2360 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  RoboCatServer.vcxproj -> C:\Users\mreddy01\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\Release\RoboCatServer.exe
+  Copying SDL DLLs...
+  C:\Users\mreddy01\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\libfreetype-6.dll
+  C:\Users\mreddy01\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\libogg-0.dll
+  C:\Users\mreddy01\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\libpng16-16.dll
+  C:\Users\mreddy01\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\libvorbis-0.dll
+  C:\Users\mreddy01\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\libvorbisfile-3.dll
+  C:\Users\mreddy01\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\SDL2.dll
+  C:\Users\mreddy01\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\SDL2_image.dll
+  C:\Users\mreddy01\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\SDL2_mixer.dll
+  C:\Users\mreddy01\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\SDL2_ttf.dll
+  C:\Users\mreddy01\OneDrive - University of South Wales\AME2223\CS2S573\MultiplayerBook\Chapter 8\RoboCatAction\RoboCatServer\\..\SDL\lib\win\x86\zlib1.dll
+  10 File(s) copied

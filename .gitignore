@@ -10,6 +10,7 @@
 *.userosscache
 *.sln.docstates
 *.sdf
+*.obj
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -18,7 +19,7 @@
 
 */build/
 */Debug/
-*/.vs
+*.vs/
 */Release/
 
 Chapter 13/localServerProcessManager/node_modules/
