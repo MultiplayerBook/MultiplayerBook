@@ -21,7 +21,8 @@
 *.userprefs
 
 ## Multiplayer Book specific
-*/.vs
+*/.vs/
+*/.vs/*
 Chapter 3/build
 Chapter 3/RoboCat/build
 Chapter 4/RoboCat/build
