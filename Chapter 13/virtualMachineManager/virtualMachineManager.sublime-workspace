@@ -147,6 +147,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1455,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -213,12 +221,11 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager",
-		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager/routes",
-		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager/views"
+		"/C/Users/mreddy01/Desktop/MultiplayerBook/Chapter 13/virtualMachineManager"
 	],
 	"file_history":
 	[
+		"/C/Users/mreddy01/Desktop/MultiplayerBook/Chapter 13/virtualMachineManager/package.json",
 		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS1S471/Ass1Slack/ready-devteam-one/2022-10-05.json",
 		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS1S471/Ass1Slack/ready-devteam-one/2022-10-01.json",
 		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager/app.js",
@@ -345,8 +352,7 @@
 		"/Users/josh/Dev/Unity/Current/ScrapForce/Library/assetDatabase3",
 		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Particles/AlienFX/AlienDroneMissileNode.prefab",
 		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/UI/HUD Icons/Materials/Conceal HUD icon.mat",
-		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Particles/AlienFX/Animations/AlienDroneMissileNode.controller",
-		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/UI/BattleUI.meta"
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Particles/AlienFX/Animations/AlienDroneMissileNode.controller"
 	],
 	"find":
 	{
@@ -509,18 +515,47 @@
 			"read"
 		],
 		"reverse": false,
-		"scrollbar_highlights": true,
 		"show_context": true,
 		"use_buffer2": true,
-		"use_gitignore": true,
 		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -567,7 +602,7 @@
 	{
 		"height": 118.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/Nodejs/Nodejs.sublime-build",
 	"project": "virtualMachineManager.sublime-project",
 	"replace":
 	{
