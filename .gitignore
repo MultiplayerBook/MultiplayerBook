@@ -21,20 +21,13 @@
 *.userprefs
 
 ## Multiplayer Book specific
-
-*/build/
-*/Debug/
-*/Debug
-*/Debug/*
-*.vs/
-*/Release/
-*/Release/*
-*/Release
-Chapter 8/RoboCatAction/RoboCat/Release/
-Chapter 8/RoboCatAction/RoboCatClient/Release/
-Chapter 8/RoboCatAction/RoboCatServer/Release/
-Chapter 12/RoboCatRTS/RoboCatRTS/Debug/
-Chapter 12/RoboCatRTS/RoboCatRTS/Release/
+*/.vs/
+Chapter 3/build
+Chapter 4/build
+Chapter 6/RoboCatAction/build
+Chapter 6/RoboCatRTS/build
+Chapter 8/RoboCatAction/build
+Chapter 8/RoboCatAction/.vs/
 Chapter 13/localServerProcessManager/node_modules/
 Chapter 13/localServerProcessManager/bin/
 Chapter 13/virtualMachineManager/bin/
