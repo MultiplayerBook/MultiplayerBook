@@ -25,10 +25,11 @@
 Chapter 3/build
 Chapter 3/RoboCat/build
 Chapter 4/RoboCat/build
-
 Chapter 6/RoboCatAction/build
+Chapter 6/RoboCatAction/*/build
 Chapter 6/RoboCatRTS/build
 Chapter 6/RoboCatAction/.vs/
+
 Chapter 8/RoboCatAction/build
 Chapter 8/RoboCatAction/.vs/
 Chapter 13/localServerProcessManager/node_modules/
