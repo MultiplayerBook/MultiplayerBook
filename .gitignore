@@ -30,7 +30,11 @@
 */Release/
 */Release/*
 */Release
-
+Chapter 8/RoboCatAction/RoboCat/Release/
+Chapter 8/RoboCatAction/RoboCatClient/Release/
+Chapter 8/RoboCatAction/RoboCatServer/Release/
+Chapter 12/RoboCatRTS/RoboCatRTS/Debug/
+Chapter 12/RoboCatRTS/RoboCatRTS/Release/
 Chapter 13/localServerProcessManager/node_modules/
 Chapter 13/localServerProcessManager/bin/
 Chapter 13/virtualMachineManager/bin/
