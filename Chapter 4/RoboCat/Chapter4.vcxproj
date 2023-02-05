@@ -111,8 +111,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <GenerateManifest>true</GenerateManifest>
-    <OutDir>build\Bin\$(Configuration)\</OutDir>
-    <IntDir>build\$(Configuration)\</IntDir>
+    <OutDir>build\$(Configuration)\</OutDir>
+    <IntDir>build\temp\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|X64'">
     <LinkIncremental>true</LinkIncremental>

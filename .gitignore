@@ -27,13 +27,32 @@ Chapter 3/build
 Chapter 3/RoboCat/build
 Chapter 4/RoboCat/build
 Chapter 6/RoboCatAction/build
-Chapter 6/RoboCatAction/*/build
+Chapter 6/RoboCatAction/Release
+Chapter 6/RoboCatAction/Debug
+Chapter 6/RoboCatAction/x64
+Chapter 6/RoboCatAction/RoboCat/build
+Chapter 6/RoboCatAction/RoboCat/Release
+Chapter 6/RoboCatAction/RoboCat/x64
+Chapter 6/RoboCatAction/RoboCatClient/Release
+Chapter 6/RoboCatAction/RoboCatClient/build
+Chapter 6/RoboCatAction/RoboCatClient/Release
+Chapter 6/RoboCatAction/RoboCatClient/Debug
+Chapter 6/RoboCatAction/RoboCatClient/x64
+Chapter 6/RoboCatAction/RoboCatServer/Release
+Chapter 6/RoboCatAction/RoboCatServer/build
+Chapter 6/RoboCatAction/RoboCatClient/x64
+
 Chapter 6/RoboCatRTS/build
 Chapter 6/RoboCatRTS/RoboCatRTS/build/
 Chapter 6/RoboCatAction/.vs/
 Chapter 6/RoboCatRTS/.vs/
 
 Chapter 8/RoboCatAction/build
+Chapter 8/RoboCatAction/RoboCat/Release
+Chapter 8/RoboCatAction/RoboCat/build
+Chapter 8/RoboCatAction/RoboCatClient/build
+Chapter 8/RoboCatAction/RoboCatClient/build
+Chapter 8/RoboCatAction/RoboCatServer/build
 Chapter 8/RoboCatAction/.vs/
 Chapter 12/RoboCatRTS/.vs
 
