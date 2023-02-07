@@ -14,7 +14,7 @@ Other platforms (including Linux) are currently not supported.
 Installation
 ------------
 
-To install, clone the repository to your local computer.
+To install, clone the repository to your local computer. You will need to checkout VS2019 branch for the updated code
 
 For the examples in Chapter 13, you'll need Node.js installed from https://nodejs.org
 and you'll need to use a terminal or console window to switch to each of the subprojects in the Chapter 13 folder and type
