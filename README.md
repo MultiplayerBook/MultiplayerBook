@@ -40,4 +40,5 @@ to run the code from the command line with
 node app.js
 ```
 
-This runs the server code. To test it you will need 'curl' installed, to create web requests, as per the chapter text
+This runs the server code. To test it you will need 'curl' but this should already be installed for Windows 10, to create web requests, 
+as per the chapter text.
