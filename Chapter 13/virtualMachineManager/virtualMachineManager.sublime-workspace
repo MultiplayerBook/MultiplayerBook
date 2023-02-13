@@ -152,55 +152,7 @@
 			"settings":
 			{
 				"buffer_size": 1455,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "bin/www",
-			"settings":
-			{
-				"buffer_size": 1638,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes/api.js",
-			"settings":
-			{
-				"buffer_size": 8576,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "host or not\ncomplexity, cost, dependence, loss of ownership\nreliability, high bandwidth, cheat prevention, copy protection\n\nREST, JSON, NodeJS\n\nServer Game Instance, Game Server Process, Game Machine, on physical hardware",
-			"settings":
-			{
-				"buffer_size": 221,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "node_modules/express/index.js",
-			"settings":
-			{
-				"buffer_size": 224,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes/index.js",
-			"settings":
-			{
-				"buffer_size": 205,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 961,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -269,20 +221,18 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/bin",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/node_modules",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/node_modules/async",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/node_modules/async/lib",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/node_modules/cookie-parser",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/node_modules/debug",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/node_modules/ejs",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/node_modules/express",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/node_modules/morgan",
-		"/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager/routes"
+		"/C/Users/mreddy01/Desktop/MultiplayerBook/Chapter 13/virtualMachineManager"
 	],
 	"file_history":
 	[
+		"/C/Users/mreddy01/Desktop/MultiplayerBook/Chapter 13/virtualMachineManager/package.json",
+		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS1S471/Ass1Slack/ready-devteam-one/2022-10-05.json",
+		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS1S471/Ass1Slack/ready-devteam-one/2022-10-01.json",
+		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager/app.js",
+		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager/bin/www",
+		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager/routes/api.js",
+		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager/package.json",
+		"/C/Users/Mike/OneDrive - University of South Wales/AME2223/CS2S573/MultiplayerBook/Chapter 13/virtualMachineManager/routes/index.js",
 		"/Users/josh/Dev/Zeke/static/favicons/manifest.json",
 		"/Users/josh/Dev/Zeke/static/script/reactIndex.js",
 		"/Users/josh/Dev/Zeke/dummy.html",
@@ -402,19 +352,11 @@
 		"/Users/josh/Dev/Unity/Current/ScrapForce/Library/assetDatabase3",
 		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Particles/AlienFX/AlienDroneMissileNode.prefab",
 		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/UI/HUD Icons/Materials/Conceal HUD icon.mat",
-		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Particles/AlienFX/Animations/AlienDroneMissileNode.controller",
-		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/UI/BattleUI.meta",
-		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/UI/Prefabs/Build Notes Module.prefab",
-		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Scripts/BackendDataManagers/BundleReference.cs",
-		"/Users/josh/Dev/BackyardBattlesServer/UploadStaticData.js",
-		"/Users/josh/Dev/BackyardBattlesServer/Admin.js",
-		"/Users/josh/Dev/BackyardBattlesServer/Uploader.js",
-		"/Users/josh/Dev/BackyardBattlesServer/static/admin/partials/Uploader.html",
-		"/Users/josh/Dev/BackyardBattlesServer/static/admin/js/controllers.js"
+		"/Users/josh/Dev/Unity/Current/ScrapForce/Assets/Particles/AlienFX/Animations/AlienDroneMissileNode.controller"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -429,11 +371,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"	",
+			"\t",
 			"lastseq",
 			"getf",
 			"updateVMState",
-			"	",
+			"\t",
 			"gPartialVMs",
 			"vms",
 			"console.log",
@@ -460,9 +402,9 @@
 			"uuid",
 			"gAvailableVMs",
 			"availableVM",
-			"	",
+			"\t",
 			"curl",
-			"	",
+			"\t",
 			"removeProcess",
 			"makeReturnableProcess",
 			"removeprocess",
@@ -581,134 +523,16 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
 					"file": "app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1455,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								911,
-								912
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 95.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "bin/www",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1638,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								238,
-								238
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "routes/api.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8576,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5391,
-								8473
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5770.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 221,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								221,
-								221
-							]
-						],
-						"settings":
-						{
-							"default_dir": "/Users/josh/Documents/Multiplayer Game Programming/virtualMachineManager",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "node_modules/express/index.js",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 224,
+						"buffer_size": 1455,
 						"regions":
 						{
 						},
@@ -721,64 +545,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "routes/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 205,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								205,
-								205
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 961,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								338,
-								359
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -786,7 +553,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -794,7 +561,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -835,11 +602,11 @@
 	{
 		"height": 118.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/Nodejs/Nodejs.sublime-build",
 	"project": "virtualMachineManager.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
