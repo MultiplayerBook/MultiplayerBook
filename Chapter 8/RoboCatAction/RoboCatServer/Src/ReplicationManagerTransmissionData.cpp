@@ -84,7 +84,9 @@ void ReplicationManagerTransmissionData::HandleUpdateStateDeliveryFailure( int i
 					
 			for( const ReplicationTransmission& otherRT: rmtdp->mTransmissions )
 			{
-				inState &= ~otherRT.GetState();
+                if (inNetworkId == otherRT.GetNetworkId()) {
+                    inState &= ~otherRT.GetState();
+                }
 			}
 		}
 		

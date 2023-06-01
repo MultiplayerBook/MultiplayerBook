@@ -18,7 +18,7 @@ public:
 	virtual void	ProcessPacket( InputMemoryBitStream& inInputStream, const SocketAddress& inFromAddress ) = 0;
 	virtual void	HandleConnectionReset( const SocketAddress& inFromAddress ) { ( void ) inFromAddress; }
 
-			void	SendPacket( const OutputMemoryBitStream& inOutputStream, const SocketAddress& inFromAddress );
+			void	SendPacket( const OutputMemoryBitStream& inOutputStream, const SocketAddress& inToAddress );
 
 			const WeightedTimedMovingAverage& GetBytesReceivedPerSecond()	const	{ return mBytesReceivedPerSecond; }
 			const WeightedTimedMovingAverage& GetBytesSentPerSecond()		const	{ return mBytesSentPerSecond; }
