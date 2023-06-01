@@ -94,27 +94,27 @@ void NetworkManager::UpdateDelay()
 		if( mDelayHeartbeat <= 0.0f )
 		{
 			mDelayHeartbeat = kTimeBetweenDelayHeartbeat;
-		}
 
-		//find out who's missing and send them a heartbeat
-		unordered_set< uint64_t > playerSet;
-		for( auto& iter : mPlayerNameMap )
-		{
-			playerSet.emplace( iter.first );
-		}
+            //find out who's missing and send them a heartbeat
+            unordered_set< uint64_t > playerSet;
+            for( auto& iter : mPlayerNameMap )
+            {
+                playerSet.emplace( iter.first );
+            }
 
-		Int64ToTurnDataMap& turnData = mTurnData[ mTurnNumber + 1 ];
-		for( auto& iter : turnData )
-		{
-			playerSet.erase( iter.first );
-		}
+            Int64ToTurnDataMap& turnData = mTurnData[ mTurnNumber + 1 ];
+            for( auto& iter : turnData )
+            {
+                playerSet.erase( iter.first );
+            }
 
-		OutputMemoryBitStream packet;
-		packet.Write( kDelayCC );
-		//whoever's left is who's missing
-		for( auto& iter : playerSet )
-		{
-			SendPacket( packet, iter );
+            OutputMemoryBitStream packet;
+            packet.Write( kDelayCC );
+            //whoever's left is who's missing
+            for( auto& iter : playerSet )
+            {
+                SendPacket( packet, iter );
+            }
 		}
 	}
 }

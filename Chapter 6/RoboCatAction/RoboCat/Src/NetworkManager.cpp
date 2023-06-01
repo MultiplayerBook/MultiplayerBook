@@ -127,9 +127,9 @@ void NetworkManager::ProcessQueuedPackets()
 
 }
 
-void NetworkManager::SendPacket( const OutputMemoryBitStream& inOutputStream, const SocketAddress& inFromAddress )
+void NetworkManager::SendPacket( const OutputMemoryBitStream& inOutputStream, const SocketAddress& inToAddress )
 {
-	int sentByteCount = mSocket->SendTo( inOutputStream.GetBufferPtr(), inOutputStream.GetByteLength(), inFromAddress );
+	int sentByteCount = mSocket->SendTo(inOutputStream.GetBufferPtr(), inOutputStream.GetByteLength(), inToAddress );
 	if( sentByteCount > 0 )
 	{
 		mBytesSentThisFrame += sentByteCount;
